@@ -1,7 +1,7 @@
 set nocompatible        " Forget about vi
 set showmode            " Persistent notice of current mode
 
-colorscheme zenburn     " TODO: this should be conditional
+colorscheme molokai      " TODO: this should be conditional
 
 filetype on             " Detect file type
 filetype plugin on      " Load file type plugins
