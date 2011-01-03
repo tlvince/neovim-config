@@ -31,3 +31,5 @@ if has('gui_running')
     set guioptions-=r                       " Hide right hand scroll bar
 endif
 
+set backupdir=~/.cache/vim,/tmp     " Put backup files here
+set directory=~/.cache/vim,/tmp     " Put swap files here
