@@ -1,7 +1,10 @@
+" .vimrc: a monolithic vim setup.
+" Copyright 2010-11 Tom Vincent <http://www.tlvince.com/contact/>
+
 set nocompatible        " Forget about vi
 set showmode            " Persistent notice of current mode
 
-colorscheme zenburn      " TODO: this should be conditional
+colorscheme zenburn     " TODO: this should be conditional
 
 filetype on             " Detect file type
 filetype plugin on      " Load file type plugins
