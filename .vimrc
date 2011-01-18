@@ -40,8 +40,9 @@ set scrolloff=3         " 3 lines of context
 set backspace=indent,eol,start          " Allow backspacing on the given values
 
 " Environment
-set backupdir=~/.cache/vim,/tmp     " Put backup files here
-set directory=~/.cache/vim,/tmp     " Put swap files here
+set backupdir=~/.cache/vim,/tmp         " Put backup files here
+set directory=~/.cache/vim,/tmp         " Put swap files here
+set viminfo+=n~/.cache/vim/.viminfo     " Put viminfo files here
 
 " GUI
 if has('gui_running')
