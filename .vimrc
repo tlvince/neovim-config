@@ -84,4 +84,9 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" NERDTree
 map <F2> :NERDTreeToggle<CR>
+let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
+
+" snipMate
+let g:snips_author = 'Tom Vincent <http://www.tlvince.com/contact/>'
