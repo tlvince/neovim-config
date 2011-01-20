@@ -58,6 +58,7 @@ endif
 
 " Mappings
 let mapleader = ","
+nnoremap <leader><space> :noh<cr>
 
 " Disable arrow keys in normal mode
 nnoremap <up> <nop>
