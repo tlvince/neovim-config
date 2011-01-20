@@ -57,6 +57,7 @@ else
 endif
 
 " Mappings
+let mapleader = ","
 
 " Disable arrow keys in normal mode
 nnoremap <up> <nop>
