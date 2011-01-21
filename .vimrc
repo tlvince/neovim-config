@@ -60,17 +60,19 @@ endif
 let mapleader = ","
 nnoremap <leader><space> :noh<cr>
 
-" Disable arrow keys in normal mode
+" Disable arrow keys (force good habits)
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
 nnoremap <right> <nop>
-
-" Disable arrow keys in insert mode
 inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
+vnoremap <up> <nop>
+vnoremap <down> <nop>
+vnoremap <left> <nop>
+vnoremap <right> <nop>
 
 " Disable help key
 inoremap <F1> <ESC>
