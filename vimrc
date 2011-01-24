@@ -48,7 +48,11 @@ let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc"
 
 " GUI
 if has('gui_running')
-    set guifont=DejaVu_Sans_Mono:h9:cANSI   " Font for GVIM interface
+    if has('win32')
+        set guifont=DejaVu_Sans_Mono:h9:cANSI   " Be explicit for Windows
+    else
+        set guifont=Monospace\ 9                " Fallback to system default
+    endif
     set guioptions-=T                       " Hide toolbar
     set guioptions-=m                       " Hide menu bar
     set guioptions-=r                       " Hide right hand scroll bar
