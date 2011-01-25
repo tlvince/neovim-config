@@ -1,8 +1,18 @@
 " .vimrc: a monolithic vim setup.
 " Copyright 2010-11 Tom Vincent <http://www.tlvince.com/contact/>
 
+set nocompatible        " Forget about vi
+
+" Environment
+set directory=$XDG_CACHE_HOME/vim,~/,/tmp
+set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
+set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
+set runtimepath=$XDG_CONFIG_HOME/vim,~/.vim,$VIM,$VIMRUNTIME,$VIM/vimfiles/after
+let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc"
+
 " File specific
-filetype on             " Detect file type
+filetype off             " Detect file type
+call pathogen#runtime_append_all_bundles()
 filetype plugin on      " Load file type plugins
 filetype indent on      " Enable file type based indentation
 syntax on               " Enable syntax highlighting
@@ -26,7 +36,6 @@ set textwidth=80        " Hard-wrap text at nth column
 set wrap                " Wrap long lines
 
 " General
-set nocompatible        " Forget about vi
 set ruler               " Show [line,col] number (in status bar)
 set showmode            " Persistent notice of current mode
 set history=50          " Number of ":" commands and searches to remember 
@@ -39,12 +48,6 @@ set scrolloff=3         " 3 lines of context
 
 set backspace=indent,eol,start          " Allow backspacing on the given values
 
-" Environment
-set directory=$XDG_CACHE_HOME/vim,~/,/tmp
-set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
-set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
-set runtimepath=$XDG_CONFIG_HOME/vim,~/.vim,$VIM,$VIMRUNTIME,$VIM/vimfiles/after
-let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc"
 
 " GUI
 if has('gui_running')
