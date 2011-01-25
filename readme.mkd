@@ -1,25 +1,38 @@
-vim
-===
+vimfiles
+========
 
 My `vim` environment, shared between many machines.
+
+This non-standard set up makes `vim` respect the [XDG base directory
+specification][xdg]. I will blog about how this works soon.
 
 Usage
 -----
 
-1. Clone the repository
-2. Switch to the `~/.vim` directory, and fetch submodules:
+1. Clone the repository:
+
+    git clone https://github.com/tlvince/vimfiles.git $XDG_CONFIG_HOME/vim
+
+2. Switch to the `$XDG_CONFIG_HOME/vim` directory and fetch the submodules:
 
     cd $XDG_CONFIG_HOME/vim
     git submodule init
     git submodule update
 
+3. Export the non-standard path to `vimrc` (perhaps by adding it to `.bashrc`):
+
+    export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
+
+4. Run `vim`, profit.
+
 Thanks
 ------
 
 * [Steve Losh][sl] for his setup guide
-* [Patrick Brisbin][pb] for his `vimrc`
+* [Patrick Brisbin][pb] for his `.vimrc`
 * [Vim Casts][vc] for the `git submodule` idea for plugins
 
   [sl]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/
   [pb]: https://github.com/pbrisbin/dotfiles
   [vc]: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+  [xdg]: http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
