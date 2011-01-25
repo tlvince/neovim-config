@@ -7,3 +7,6 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/akitaonrails/snipmate.vim.git
+[submodule "bundle/securemodelines"]
+	path = bundle/securemodelines
+	url = https://github.com/ciaranm/securemodelines.git
