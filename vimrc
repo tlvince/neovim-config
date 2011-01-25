@@ -7,12 +7,13 @@ set nocompatible        " Forget about vi
 set directory=$XDG_CACHE_HOME/vim,~/,/tmp
 set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
 set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
-set runtimepath=$XDG_CONFIG_HOME/vim,~/.vim,$VIM,$VIMRUNTIME,$VIM/vimfiles/after
+set runtimepath+=$XDG_CONFIG_HOME/vim
 let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc"
 
 " File specific
 filetype off             " Detect file type
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 filetype plugin on      " Load file type plugins
 filetype indent on      " Enable file type based indentation
 syntax on               " Enable syntax highlighting
