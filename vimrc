@@ -1,19 +1,33 @@
 " .vimrc: a monolithic vim setup.
 " Copyright 2010-11 Tom Vincent <http://www.tlvince.com/contact/>
+" vim: set fdm=marker:
 
-set nocompatible        " Forget about vi
+" Environment {{{
+"
+" A consistent runtime environment.
 
-" Environment
+" Forget about vi and set it first as it modifies future behaviour
+set nocompatible
+
+" Make vim respect the XDG base directory spec.
 set directory=$XDG_CACHE_HOME/vim,~/,/tmp
 set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
 set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
 set runtimepath=$XDG_CONFIG_HOME/vim,$XDG_CONFIG_HOME/vim/after,$VIM,$VIMRUNTIME
 let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc"
 
-" File specific
-filetype off             " Detect file type
+" Load plugins managed by pathogen
+filetype off            " Fixes issues with ftdetect files. See pathogen docs.
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+
+" }}}
+
+" General preferences {{{
+"
+" Learn about these using vim help.
+
+" File based
 filetype plugin on      " Load file type plugins
 filetype indent on      " Enable file type based indentation
 syntax on               " Enable syntax highlighting
@@ -28,9 +42,9 @@ set expandtab           " Insert tabs as spaces
 set wrapscan            " Wrap searches
 set ignorecase          " Ignore search term case...
 set smartcase           " ... unless term contains an uppercase character
-set incsearch           " Highlight search
-set showmatch           " results
-set hlsearch            " as you type
+set incsearch           " Highlight search...
+set showmatch           " ... results
+set hlsearch            " ... as you type
 
 " Wrapping
 set textwidth=80        " Hard-wrap text at nth column
@@ -49,8 +63,12 @@ set scrolloff=3         " 3 lines of context
 
 set backspace=indent,eol,start          " Allow backspacing on the given values
 
+" }}}
 
-" GUI
+" Visuals {{{
+"
+" Set up gvim, colour schemes and the like.
+
 if has('gui_running')
     if has('win32')
         set guifont=DejaVu_Sans_Mono:h9:cANSI   " Be explicit for Windows
@@ -66,9 +84,14 @@ else
     colorscheme zenburn
 endif
 
-" Mappings
+" }}}
+
+" Mappings {{{
+"
+" vim does funny things with inline comments here, so don't use them.
+
+" Easier to reach (with the thumb)
 let mapleader = ","
-nnoremap <leader><space> :noh<cr>
 
 " Disable arrow keys (force good habits)
 nnoremap <up> <nop>
@@ -98,9 +121,18 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" }}}
+
+" Plugins {{{
+
 " NERDTree
 map <F2> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
 
+" NERDCommenter
+nnoremap <leader><space> :noh<cr>
+
 " snipMate
-let g:snips_author = 'Tom Vincent <http://www.tlvince.com/contact/>'
+let g:snips_author='Tom Vincent <http://www.tlvince.com/contact/>'
+
+" }}}
