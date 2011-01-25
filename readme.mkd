@@ -1,0 +1,16 @@
+vim
+===
+
+My `vim` environment, shared between many machines.
+
+
+Thanks
+------
+
+* [Steve Losh][sl] for his setup guide
+* [Patrick Brisbin][pb] for his `vimrc`
+* [Vim Casts][vc] for the `git submodule` idea for plugins
+
+  [sl]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/
+  [pb]: https://github.com/pbrisbin/dotfiles
+  [vc]: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
