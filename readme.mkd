@@ -3,6 +3,15 @@ vim
 
 My `vim` environment, shared between many machines.
 
+Usage
+-----
+
+1. Clone the repository
+2. Switch to the `~/.vim` directory, and fetch submodules:
+
+    cd $XDG_CONFIG_HOME/vim
+    git submodule init
+    git submodule update
 
 Thanks
 ------
