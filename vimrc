@@ -1,8 +1,8 @@
-" .vimrc: a monolithic vim setup.
+" .vimrc: a monolithic vim setup. {{{1
 " Copyright 2010-11 Tom Vincent <http://www.tlvince.com/contact/>
 " vim: set fdm=marker:
 
-" Environment {{{
+" Environment {{{1
 "
 " A consistent runtime environment.
 
@@ -21,9 +21,7 @@ filetype off            " Fixes issues with ftdetect files. See pathogen docs.
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-" }}}
-
-" General preferences {{{
+" General preferences {{{1
 "
 " Learn about these using vim help.
 
@@ -63,9 +61,7 @@ set scrolloff=3         " 3 lines of context
 
 set backspace=indent,eol,start          " Allow backspacing on the given values
 
-" }}}
-
-" Visuals {{{
+" Visuals {{{1
 "
 " Set up gvim, colour schemes and the like.
 
@@ -84,9 +80,7 @@ else
     colorscheme zenburn
 endif
 
-" }}}
-
-" Mappings {{{
+" Mappings {{{1
 "
 " vim does funny things with inline comments here, so don't use them.
 
@@ -121,9 +115,7 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-" }}}
-
-" Plugins {{{
+" Plugins {{{1
 
 " NERDTree
 map <F2> :NERDTreeToggle<CR>
@@ -135,4 +127,7 @@ nnoremap <leader><space> :noh<cr>
 " snipMate
 let g:snips_author='Tom Vincent <http://www.tlvince.com/contact/>'
 
-" }}}
+" Autocommands {{{1
+if has('autocmd')
+    autocmd Filetype python set foldmethod=indent
+endif
