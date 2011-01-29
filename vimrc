@@ -87,6 +87,9 @@ endif
 " Easier to reach (with the thumb)
 let mapleader = ","
 
+" Leader + v to open vimrc in a new tab
+nmap <leader>v :tabedit $MYVIMRC<CR>
+
 " Disable arrow keys (force good habits)
 nnoremap <up> <nop>
 nnoremap <down> <nop>
@@ -129,5 +132,9 @@ let g:snips_author='Tom Vincent <http://www.tlvince.com/contact/>'
 
 " Autocommands {{{1
 if has('autocmd')
+    " Always fold Python files
     autocmd Filetype python set foldmethod=indent
+
+    " Re-source vimrc whenever changes are saved
+    autocmd BufWritePost vimrc source $MYVIMRC
 endif
