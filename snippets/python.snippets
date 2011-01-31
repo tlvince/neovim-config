@@ -79,12 +79,12 @@ snippet try Try/Except/Else/Finally
 		${6:pass}
 # Run module as script
 snippet ifm
-	def ${1:main()}:
+	def main():
 		"""Start execution of `Filename('$1', 'name')`."""
-		${2:pass}
+		${1:pass}
 
 	if __name__ == "__main__":
-		${1:main()}
+		main()
 # __magic__
 snippet _
 	__${1:init}__${2}
