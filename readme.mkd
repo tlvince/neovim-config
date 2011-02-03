@@ -3,8 +3,8 @@ vimfiles
 
 My `vim` environment, shared between many machines.
 
-This non-standard set up makes `vim` respect the [XDG base directory
-specification][xdg]. I will blog about how this works soon.
+This non-standard set up makes `vim` respect the XDG base directory
+specification. Read [how this works][howto] for more information.
 
 Usage
 -----
@@ -35,4 +35,4 @@ Thanks
   [sl]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/
   [pb]: https://github.com/pbrisbin/dotfiles
   [vc]: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
-  [xdg]: http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
+  [howto]: http://www.tlvince.com/linux/vim-respect-xdg/
