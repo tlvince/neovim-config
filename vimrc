@@ -84,11 +84,14 @@ endif
 "
 " vim does funny things with inline comments here, so don't use them.
 
-" Easier to reach (with the thumb)
+" Map leader (the dedicated user-mapping prefix key) to comma
 let mapleader = ","
 
 " Leader + v to open vimrc in a new tab
 nmap <leader>v :tabedit $MYVIMRC<CR>
+
+" Leader + t to open a new tab
+nmap <leader>t :tabnew<CR>
 
 " Disable arrow keys (force good habits)
 nnoremap <up> <nop>
@@ -125,7 +128,7 @@ map <F2> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
 
 " NERDCommenter
-nnoremap <leader><space> :noh<cr>
+nnoremap <leader><space> :noh<CR>
 
 " snipMate
 let g:snips_author='Tom Vincent <http://www.tlvince.com/contact/>'
