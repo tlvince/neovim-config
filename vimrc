@@ -66,7 +66,7 @@ set backspace=indent,eol,start          " Allow backspacing on the given values
 " Set up gvim, colour schemes and the like.
 
 if has('gui_running')
-    if has('win32')
+    if has('win32') || has('win64')
         set guifont=DejaVu_Sans_Mono:h9:cANSI   " Be explicit for Windows
     else
         set guifont=Monospace\ 9                " Fallback to system default
@@ -77,7 +77,7 @@ if has('gui_running')
     set guioptions-=L                       " Hide left hand scroll bar
     colorscheme pyte
 else
-    colorscheme zenburn
+    colorscheme molokai
 endif
 
 " Mappings {{{1
