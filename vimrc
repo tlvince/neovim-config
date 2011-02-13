@@ -137,4 +137,16 @@ if has('autocmd')
 
     " Re-source vimrc whenever changes are saved
     autocmd BufWritePost vimrc source $MYVIMRC
+
+    " Bind leader + p to preview Markdown files
+    autocmd Filetype markdown nmap <leader>p :call PreviewMarkdown()<CR>
 endif
+
+" Functions {{{1
+
+" Preview Markdown files, depending on an external script.
+function! PreviewMarkdown()
+    :write
+    :silent !markdown "%"
+    :redraw!
+endfunction
