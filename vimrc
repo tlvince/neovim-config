@@ -55,7 +55,6 @@ set history=50          " Number of ":" commands and searches to remember
 set spelllang=en_gb     " Speak proper English
 set wildmenu            " dmenu style menu for commands
 set fillchars=""        " Remove characters in window split
-set autochdir           " cd to active file's dir
 set encoding=utf-8      " Default encoding
 set scrolloff=3         " 3 lines of context
 
@@ -89,6 +88,9 @@ let mapleader = ","
 
 " Leader + v to open vimrc in a new tab
 nmap <leader>v :tabedit $MYVIMRC<CR>
+
+" Open a file relative to the current file
+map <leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
 
 " Disable arrow keys (force good habits)
 nnoremap <up> <nop>
