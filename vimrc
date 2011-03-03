@@ -55,7 +55,6 @@ set history=50          " Number of ":" commands and searches to remember
 set spelllang=en_gb     " Speak proper English
 set wildmenu            " dmenu style menu for commands
 set fillchars=""        " Remove characters in window split
-set autochdir           " cd to active file's dir
 set encoding=utf-8      " Default encoding
 set scrolloff=3         " 3 lines of context
 
@@ -92,6 +91,9 @@ nmap <leader>v :tabedit $MYVIMRC<CR>
 
 " Leader + t to open a new tab
 nmap <leader>t :tabnew<CR>
+
+" Open a file (relative to the current file) in a new tab
+map <leader>e :tabe <C-R>=expand("%:p:h") . "/" <CR>
 
 " Disable arrow keys (force good habits)
 nnoremap <up> <nop>
@@ -140,4 +142,16 @@ if has('autocmd')
 
     " Re-source vimrc whenever changes are saved
     autocmd BufWritePost vimrc source $MYVIMRC
+
+    " Bind leader + p to preview Markdown files
+    autocmd Filetype markdown nmap <leader>p :call PreviewMarkdown()<CR>
 endif
+
+" Functions {{{1
+
+" Preview Markdown files, depending on an external script.
+function! PreviewMarkdown()
+    :write
+    :silent !markdown "%"
+    :redraw!
+endfunction
