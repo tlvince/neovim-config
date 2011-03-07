@@ -123,14 +123,17 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" Function keys
+set pastetoggle=<F1>
+map <F2> :NERDTreeToggle<CR>
+
+" Disable search highlighting
+nnoremap <leader><space> :nohlsearch<CR>
+
 " Plugins {{{1
 
 " NERDTree
-map <F2> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
-
-" NERDCommenter
-nnoremap <leader><space> :noh<CR>
 
 " snipMate
 let g:snips_author='Tom Vincent <http://www.tlvince.com/contact/>'
