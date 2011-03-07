@@ -130,6 +130,11 @@ map <F2> :NERDTreeToggle<CR>
 " Disable search highlighting
 nnoremap <leader><space> :nohlsearch<CR>
 
+" Sudo to write
+if has ('unix')
+    cmap w!! w !sudo tee % >/dev/null
+endif
+
 " Plugins {{{1
 
 " NERDTree
