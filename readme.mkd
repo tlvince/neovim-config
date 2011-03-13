@@ -23,7 +23,11 @@ Usage
 
         export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 
-4. Run `vim`, profit.
+4. Create the needed directory
+
+        mkdir $XDG_CACHE_HOME/vim
+
+5. Run `vim`, profit.
 
 Thanks
 ------
