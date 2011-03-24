@@ -95,6 +95,11 @@ nmap <leader>t :tabnew<CR>
 " Open a file (relative to the current file) in a new tab
 map <leader>e :tabe <C-R>=expand("%:p:h") . "/" <CR>
 
+" Silently open a shell in the directory of the current file
+if has("win32") || has("win64")
+    map ,s :silent !start cmd /k cd %:p:h <CR>
+endif
+
 " Disable arrow keys (force good habits)
 nnoremap <up> <nop>
 nnoremap <down> <nop>
@@ -124,8 +129,8 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Function keys
-set pastetoggle=<F1>
 map <F2> :NERDTreeToggle<CR>
+set pastetoggle=<F3>
 
 " Disable search highlighting
 nnoremap <leader><space> :nohlsearch<CR>
