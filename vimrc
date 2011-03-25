@@ -122,6 +122,10 @@ vnoremap <F1> <ESC>
 " Return to normal mode
 inoremap jj <ESC>
 
+" Always move between wrapped lines
+nnoremap j gj
+nnoremap k gk
+
 " Move between splits with CTRL+[hjkl]
 nnoremap <C-h> <C-w>h       
 nnoremap <C-j> <C-w>j
