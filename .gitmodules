@@ -25,3 +25,6 @@
 [submodule "bundle/colour-pyte"]
 	path = bundle/colour-pyte
 	url = https://github.com/vim-scripts/pyte.git
+[submodule "bundle/pathogen"]
+	path = bundle/pathogen
+	url = https://github.com/tpope/vim-pathogen.git
