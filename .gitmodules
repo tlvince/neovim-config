@@ -16,3 +16,6 @@
 [submodule "bundle/colour-solarized"]
 	path = bundle/colour-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/colour-zenburn"]
+	path = bundle/colour-zenburn
+	url = https://github.com/vim-scripts/Zenburn.git
