@@ -66,16 +66,18 @@ set backspace=indent,eol,start          " Allow backspacing on the given values
 
 if has('gui_running')
     if has('win32') || has('win64')
-        set guifont=DejaVu_Sans_Mono:h9:cANSI   " Be explicit for Windows
+        set guifont=DejaVu_Sans_Mono:h11:cANSI   " Be explicit for Windows
     else
-        set guifont=Monospace\ 9                " Fallback to system default
+        set guifont=Monospace\ 11                " Fallback to system default
     endif
     set guioptions-=T                       " Hide toolbar
     set guioptions-=m                       " Hide menu bar
     set guioptions-=r                       " Hide right hand scroll bar
     set guioptions-=L                       " Hide left hand scroll bar
-    colorscheme pyte
+    set background=light
+    colorscheme solarized
 else
+    set background=dark
     colorscheme molokai
 endif
 
