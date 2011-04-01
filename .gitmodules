@@ -13,3 +13,6 @@
 [submodule "bundle/vimoutliner"]
 	path = bundle/vimoutliner
 	url = https://github.com/tlvince/vimoutliner.git
+[submodule "bundle/colour-solarized"]
+	path = bundle/colour-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
