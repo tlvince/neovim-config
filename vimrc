@@ -154,6 +154,7 @@ let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
 
 " snipMate
 let g:snips_author='Tom Vincent <http://www.tlvince.com/contact/>'
+let g:snippets_dir="$XDG_CONFIG_HOME/vim/bundle/snipmate-snippets"
 
 " Autocommands {{{1
 if has('autocmd')
