@@ -22,6 +22,3 @@
 [submodule "bundle/colour-molokai"]
 	path = bundle/colour-molokai
 	url = https://github.com/vim-scripts/molokai.git
-[submodule "bundle/colour-pyte"]
-	path = bundle/colour-pyte
-	url = https://github.com/vim-scripts/pyte.git
