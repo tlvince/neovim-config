@@ -67,7 +67,7 @@ set backspace=indent,eol,start          " Allow backspacing on the given values
 
 if has('gui_running')
     if has('win32') || has('win64')
-        set guifont=DejaVu_Sans_Mono:h11:cANSI   " Be explicit for Windows
+        set guifont=DejaVu_Sans_Mono:h11,Consolas:h11,Courier_New:h11
     else
         set guifont=Monospace\ 11                " Fallback to system default
     endif
