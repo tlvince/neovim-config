@@ -166,6 +166,9 @@ if has('autocmd')
 
     " Bind leader + p to preview Markdown files
     autocmd Filetype markdown nmap <leader>p :call PreviewMarkdown()<CR>
+
+    " Fold Markdown files based on the heading level
+    autocmd Filetype markdown set foldmethod=expr foldexpr=HeadingLevel(v:lnum)
 endif
 
 " Functions {{{1
@@ -175,4 +178,31 @@ function! PreviewMarkdown()
     :write
     :silent !markdown "%"
     :redraw!
+endfunction
+
+" Return the level of setext and atx style headers.
+" See: http://tech.groups.yahoo.com/group/vim/message/120033
+function! HeadingLevel(lnum)
+    let l1 = getline(a:lnum)
+
+    " Ignore empty lines
+    if l1 =~ '^\s*$'
+        return '='
+    endif
+
+    " Setext-style headers begin on the line below
+    let l2 = getline(a:lnum+1)
+    if l2 =~ '^=\+\s*'
+        return '>1'
+    elseif l2 =~ '^-\+\s*'
+        return '>2'
+
+    " Check for atx-style headers
+    elseif l1 =~ '^#'
+        return '>'.matchend(l1, '^#\+')
+
+    " Otherwise keep the previous foldlevel
+    else
+        return '='
+    endif
 endfunction
