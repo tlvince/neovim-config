@@ -103,6 +103,40 @@ if has("win32") || has("win64")
     map ,s :silent !start cmd /k cd %:p:h <CR>
 endif
 
+" Return to normal mode
+inoremap jj <ESC>
+
+" Always move between wrapped lines
+nnoremap j gj
+nnoremap k gk
+
+" Move between splits with CTRL+[hjkl]
+nnoremap <C-h> <C-w>h       
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+" Disable search highlighting
+nnoremap <leader><space> :nohlsearch<CR>
+
+" Sudo to write
+if has ('unix')
+    cmap w!! w !sudo tee % >/dev/null
+endif
+
+" Function keys {{{2
+
+" Toggle NERDTree plugin
+map <F2> :NERDTreeToggle<CR>
+
+" Toggle paste mode (particularly useful to temporarily disable autoindent)
+set pastetoggle=<F3>
+
+" Toggle spelling and show it's status
+map <F7> :setlocal spell! spell?<CR>
+
+" Disabled keys {{{2
+
 " Disable arrow keys (force good habits)
 nnoremap <up> <nop>
 nnoremap <down> <nop>
@@ -121,31 +155,6 @@ vnoremap <right> <nop>
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
-
-" Return to normal mode
-inoremap jj <ESC>
-
-" Always move between wrapped lines
-nnoremap j gj
-nnoremap k gk
-
-" Move between splits with CTRL+[hjkl]
-nnoremap <C-h> <C-w>h       
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
-
-" Function keys
-map <F2> :NERDTreeToggle<CR>
-set pastetoggle=<F3>
-
-" Disable search highlighting
-nnoremap <leader><space> :nohlsearch<CR>
-
-" Sudo to write
-if has ('unix')
-    cmap w!! w !sudo tee % >/dev/null
-endif
 
 " Plugins {{{1
 
