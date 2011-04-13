@@ -69,18 +69,14 @@ if has('gui_running')
     if has('win32') || has('win64')
         set guifont=DejaVu_Sans_Mono:h11,Consolas:h11,Courier_New:h11
     else
-        set guifont=Monospace\ 11                " Fallback to system default
+        set guifont=Monospace\ 11           " Fallback to system default
     endif
     set guioptions-=T                       " Hide toolbar
     set guioptions-=m                       " Hide menu bar
     set guioptions-=r                       " Hide right hand scroll bar
     set guioptions-=L                       " Hide left hand scroll bar
-    set background=light
-    colorscheme solarized
-else
-    set background=dark
-    colorscheme molokai
 endif
+
 
 " Mappings {{{1
 "
@@ -178,18 +174,19 @@ if has('autocmd')
 
     " Fold Markdown files based on the heading level
     autocmd Filetype markdown set foldmethod=expr foldexpr=HeadingLevel(v:lnum)
+
 endif
 
 " Functions {{{1
 
-" Preview Markdown files, depending on an external script.
+" Preview Markdown files, depending on an external script. {{{2
 function! PreviewMarkdown()
     :write
     :silent !markdown "%"
     :redraw!
 endfunction
 
-" Return the level of setext and atx style headers.
+" Return the level of setext and atx style headers. {{{2
 " See: http://tech.groups.yahoo.com/group/vim/message/120033
 function! HeadingLevel(lnum)
     let l1 = getline(a:lnum)
@@ -215,3 +212,38 @@ function! HeadingLevel(lnum)
         return '='
     endif
 endfunction
+
+" Set a colour scheme according to the current time of day. {{{2
+" See: http://vim.wikia.com/wiki/Switch_color_schemes
+function! HourColour()
+    " List of colour schemes from light to dark
+    let colours = ["solarized", "zenburn", "molokai"]
+
+    " Get the current hour
+    let hour = str2nr(strftime('%H'))
+    
+    " Return the index of a colour scheme that matches ambient light levels
+    if hour >= 5 && hour <= 8
+        let i = 1
+    elseif hour >= 9 && hour <= 17
+        let i = 0
+    elseif hour >= 18 && hour <= 22
+        let i = 1
+    else
+        let i = 2
+    endif
+
+    " Sunrise/Sunset
+    if hour >= 6 && hour <= 19
+        set background=light
+    else
+        set background=dark
+    endif
+    
+    " Actually set the colour scheme
+    execute "colorscheme " . colours[i]
+endfunction
+" }}}1
+
+" Choose a colour according to the time of day
+call HourColour()
