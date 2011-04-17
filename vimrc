@@ -178,6 +178,9 @@ if has('autocmd')
 
     " Fold Markdown files based on the heading level
     autocmd Filetype markdown set foldmethod=expr foldexpr=HeadingLevel(v:lnum)
+
+    " Syntax highlight Pandoc files
+    autocmd Bufread,BufNewFile *.pdc set filetype=pdc
 endif
 
 " Functions {{{1

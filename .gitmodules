@@ -34,3 +34,6 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/pandoc"]
+	path = bundle/pandoc
+	url = https://github.com/vim-scripts/pdc.vim.git
