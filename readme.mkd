@@ -6,6 +6,13 @@ My `vim` environment, shared between many machines.
 This non-standard set up makes `vim` respect the XDG base directory
 specification. Read [how this works][howto] for more information.
 
+Branches
+--------
+
+This *Windows* branch has a single difference to `master`: it duplicates the
+`bundle\pathogen\autload` directory (into the root of the repository) since
+Windows does not support symbolic links. If you know a better way of doing this,
+I'd like to hear from you!
 Usage
 -----
 
