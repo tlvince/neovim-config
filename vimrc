@@ -95,8 +95,14 @@ nmap <leader>v :tabedit $MYVIMRC<CR>
 " Leader + t to open a new tab
 nmap <leader>t :tabnew<CR>
 
-" Open a file (relative to the current file) in a new tab
-map <leader>e :tabe <C-R>=expand("%:p:h") . "/" <CR>
+" Open a file (relative to the current file)
+" See: http://vimcasts.org/episodes/the-edit-command/
+" Synonyms: {e: edit, where: {w: window, s: split, v: vertical split, t: tab}}
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+map <leader>ew :e %%
+map <leader>es :sp %%
+map <leader>ev :vsp %%
+map <leader>et :tabe %%
 
 " Silently open a shell in the directory of the current file
 if has("win32") || has("win64")
