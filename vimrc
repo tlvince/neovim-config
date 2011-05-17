@@ -17,10 +17,7 @@ set runtimepath=$XDG_CONFIG_HOME/vim,$XDG_CONFIG_HOME/vim/after,$VIM,$VIMRUNTIME
 let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc"
 
 " Load plugins managed by pathogen
-filetype off            " Fixes issues with ftdetect files. See pathogen docs.
-let g:pathogen_disabled = ['pathogen']  " Prevent pathogen from self-sourcing
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+call pathogen#infect()
 
 " General preferences {{{1
 "
@@ -95,8 +92,14 @@ nmap <leader>v :tabedit $MYVIMRC<CR>
 " Leader + t to open a new tab
 nmap <leader>t :tabnew<CR>
 
-" Open a file (relative to the current file) in a new tab
-map <leader>e :tabe <C-R>=expand("%:p:h") . "/" <CR>
+" Open a file (relative to the current file)
+" See: http://vimcasts.org/episodes/the-edit-command/
+" Synonyms: {e: edit, where: {w: window, s: split, v: vertical split, t: tab}}
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+map <leader>ew :e %%
+map <leader>es :sp %%
+map <leader>ev :vsp %%
+map <leader>et :tabe %%
 
 " Silently open a shell in the directory of the current file
 if has("win32") || has("win64")
