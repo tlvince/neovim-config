@@ -17,10 +17,7 @@ set runtimepath=$XDG_CONFIG_HOME/vim,$XDG_CONFIG_HOME/vim/after,$VIM,$VIMRUNTIME
 let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc"
 
 " Load plugins managed by pathogen
-filetype off            " Fixes issues with ftdetect files. See pathogen docs.
-let g:pathogen_disabled = ['pathogen']  " Prevent pathogen from self-sourcing
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+call pathogen#infect()
 
 " General preferences {{{1
 "
