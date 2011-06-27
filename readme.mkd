@@ -16,8 +16,7 @@ Usage
 2. Switch to the `$XDG_CONFIG_HOME/vim` directory and fetch the submodules:
 
         cd $XDG_CONFIG_HOME/vim
-        git submodule init
-        git submodule update
+        git submodule update --init
 
 3. Export the non-standard path to `vimrc` (perhaps by adding it to `.bashrc`):
 
