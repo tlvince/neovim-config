@@ -26,7 +26,25 @@ Usage
 
         mkdir $XDG_CACHE_HOME/vim
 
-5. Run `vim`, profit.
+### gVim Portable (Windows)
+
+A few additional steps are required for gVim Portable under Windows:
+
+1. Set the `XDG_{CONFIG|CACHE}_HOME` and `VIMINIT` environment variables:
+
+        notepad gVimPortable\App\AppInfo\Launcher\gVimPortable.ini
+
+    Add the following under the `[Environment]` section:
+
+        XDG_CONFIG_HOME=[path]\config
+        XDG_CACHE_HOME=[path]\cache
+        VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
+
+2. After cloning and fetching the submodules (as above):
+
+    1. Delete the `[vimconfig]\autoload` symlink
+    2. Copy the directory `[vimconfig]\bundle\pathogen\autoload` to
+       `[vimconfig]`
 
 Thanks
 ------
