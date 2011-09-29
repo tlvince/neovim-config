@@ -184,6 +184,9 @@ if has('autocmd')
 
     " Syntax highlight Pandoc files
     autocmd Bufread,BufNewFile *.pdc set filetype=pdc
+
+    " Set the error format for occam-pi files
+    autocmd Filetype occam set efm+=Error-occ21-%f(%l)-\ %m
 endif
 
 " Functions {{{1
