@@ -129,6 +129,9 @@ map <leader>et :tabe %%
 " Disable search highlighting
 nnoremap <leader><space> :nohlsearch<CR>
 
+" Write and build the current file
+map <leader>m :write<CR> :make<CR>
+
 " Function keys {{{2
 
 " Toggle NERDTree plugin
