@@ -168,6 +168,9 @@ let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
 let g:snips_author='Tom Vincent <http://tlvince.com/contact/>'
 let g:snippets_dir="$XDG_CONFIG_HOME/vim/bundle/snipmate-snippets"
 
+" SuperTab
+let g:SuperTabDefaultCompletionType = "context"
+
 " Autocommands {{{1
 if has('autocmd')
     " Always fold Python files
@@ -187,6 +190,9 @@ if has('autocmd')
 
     " Set the error format for occam-pi files
     autocmd Filetype occam set efm+=Error-occ21-%f(%l)-\ %m
+
+    " Enable omni-complete for Python files
+    autocmd Filetype python set omnifunc=pythoncomplete#Complete
 endif
 
 " Functions {{{1
