@@ -204,7 +204,7 @@ if has('autocmd')
     autocmd Filetype python compiler python
 
     " Enable the occam-pi compiler plugin
-    autocmd Filetype occam compiler occam
+    autocmd Filetype occam compiler occam-pi
 endif
 
 " Functions {{{1
