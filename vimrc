@@ -101,9 +101,6 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-" Disable search highlighting
-nnoremap <leader><space> :nohlsearch<CR>
-
 " Sudo to write
 if has ('unix')
     cmap w!! w !sudo tee % >/dev/null
@@ -128,6 +125,9 @@ map <leader>ew :e %%
 map <leader>es :sp %%
 map <leader>ev :vsp %%
 map <leader>et :tabe %%
+
+" Disable search highlighting
+nnoremap <leader><space> :nohlsearch<CR>
 
 " Function keys {{{2
 
