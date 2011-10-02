@@ -197,6 +197,9 @@ if has('autocmd')
     " Automatically open the quickfix window on :make
     autocmd QuickFixCmdPost [^l]* nested cwindow
     autocmd QuickFixCmdPost    l* nested lwindow
+
+    " Enable the Python compiler plugin
+    autocmd Filetype python compiler python
 endif
 
 " Functions {{{1
