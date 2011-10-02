@@ -193,9 +193,6 @@ if has('autocmd')
     " Syntax highlight Pandoc files
     autocmd Bufread,BufNewFile *.pdc set filetype=pdc
 
-    " Set the error format for occam-pi files
-    autocmd Filetype occam set efm+=Error-occ21-%f(%l)-\ %m
-
     " Enable omni-complete for Python files
     autocmd Filetype python set omnifunc=pythoncomplete#Complete
 
@@ -205,6 +202,9 @@ if has('autocmd')
 
     " Enable the Python compiler plugin
     autocmd Filetype python compiler python
+
+    " Enable the occam-pi compiler plugin
+    autocmd Filetype occam compiler occam
 endif
 
 " Functions {{{1
