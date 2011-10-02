@@ -40,3 +40,9 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/compiler-python"]
+	path = bundle/compiler-python
+	url = https://github.com/tlvince/compiler-python
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
