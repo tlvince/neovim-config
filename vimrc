@@ -83,24 +83,6 @@ endif
 "
 " vim does funny things with inline comments here, so don't use them.
 
-" Map leader (the dedicated user-mapping prefix key) to comma
-let mapleader = ","
-
-" Leader + v to open vimrc in a new tab
-nmap <leader>v :tabedit $MYVIMRC<CR>
-
-" Leader + t to open a new tab
-nmap <leader>t :tabnew<CR>
-
-" Open a file (relative to the current file)
-" See: http://vimcasts.org/episodes/the-edit-command/
-" Synonyms: {e: edit, where: {w: window, s: split, v: vertical split, t: tab}}
-cnoremap %% <C-R>=expand('%:h').'/'<cr>
-map <leader>ew :e %%
-map <leader>es :sp %%
-map <leader>ev :vsp %%
-map <leader>et :tabe %%
-
 " Silently open a shell in the directory of the current file
 if has("win32") || has("win64")
     map ,s :silent !start cmd /k cd %:p:h <CR>
@@ -126,6 +108,26 @@ nnoremap <leader><space> :nohlsearch<CR>
 if has ('unix')
     cmap w!! w !sudo tee % >/dev/null
 endif
+
+" Leader keys {{{2
+
+" Map leader (the dedicated user-mapping prefix key) to comma
+let mapleader = ","
+
+" Leader + v to open vimrc in a new tab
+nmap <leader>v :tabedit $MYVIMRC<CR>
+
+" Leader + t to open a new tab
+nmap <leader>t :tabnew<CR>
+
+" Open a file (relative to the current file)
+" See: http://vimcasts.org/episodes/the-edit-command/
+" Synonyms: {e: edit, where: {w: window, s: split, v: vertical split, t: tab}}
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+map <leader>ew :e %%
+map <leader>es :sp %%
+map <leader>ev :vsp %%
+map <leader>et :tabe %%
 
 " Function keys {{{2
 
