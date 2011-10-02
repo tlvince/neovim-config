@@ -46,3 +46,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/compiler-occam-pi"]
+	path = bundle/compiler-occam-pi
+	url = https://github.com/tlvince/vim-compiler-occam-pi
