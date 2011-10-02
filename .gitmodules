@@ -42,7 +42,7 @@
 	url = https://github.com/godlygeek/tabular.git
 [submodule "bundle/compiler-python"]
 	path = bundle/compiler-python
-	url = https://github.com/tlvince/compiler-python
+	url = https://github.com/tlvince/vim-compiler-python
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
