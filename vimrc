@@ -193,6 +193,10 @@ if has('autocmd')
 
     " Enable omni-complete for Python files
     autocmd Filetype python set omnifunc=pythoncomplete#Complete
+
+    " Automatically open the quickfix window on :make
+    autocmd QuickFixCmdPost [^l]* nested cwindow
+    autocmd QuickFixCmdPost    l* nested lwindow
 endif
 
 " Functions {{{1
