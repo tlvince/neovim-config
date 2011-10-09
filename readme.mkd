@@ -1,5 +1,4 @@
-vimfiles
-========
+# Vim Configuration
 
 My `vim` environment, shared between many machines.
 
