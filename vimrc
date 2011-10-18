@@ -58,6 +58,9 @@ set scrolloff=3         " 3 lines of context
 
 set backspace=indent,eol,start          " Allow backspacing on the given values
 
+" Ignore the following globs in file completions
+set wildignore+=*.o,*.obj,*.pyc,.git
+
 " Visuals {{{1
 "
 " Set up gvim, colour schemes and the like.
