@@ -49,3 +49,6 @@
 [submodule "bundle/compiler-occam-pi"]
 	path = bundle/compiler-occam-pi
 	url = https://github.com/tlvince/vim-compiler-occam-pi
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = https://github.com/wincent/Command-T.git

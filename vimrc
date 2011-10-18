@@ -132,6 +132,9 @@ nnoremap <leader><space> :nohlsearch<CR>
 " Write and build the current file
 map <leader>m :write<CR> :make<CR>
 
+" Command-T
+nmap <leader>f :CommandT<CR>
+
 " Function keys {{{2
 
 " Toggle NERDTree plugin
