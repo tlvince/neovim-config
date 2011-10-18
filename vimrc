@@ -137,9 +137,6 @@ nmap <leader>f :CommandT<CR>
 
 " Function keys {{{2
 
-" Toggle NERDTree plugin
-map <F2> :NERDTreeToggle<CR>
-
 " Toggle paste mode (particularly useful to temporarily disable autoindent)
 set pastetoggle=<F3>
 
@@ -168,9 +165,6 @@ nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
 " Plugins {{{1
-
-" NERDTree
-let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
 
 " snipMate
 let g:snips_author='Tom Vincent <http://tlvince.com/contact/>'
