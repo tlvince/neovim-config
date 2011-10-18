@@ -114,9 +114,6 @@ let mapleader = ","
 " Leader + v to open vimrc in a new tab
 nmap <leader>v :tabedit $MYVIMRC<CR>
 
-" Leader + t to open a new tab
-nmap <leader>t :tabnew<CR>
-
 " Open a file (relative to the current file)
 " See: http://vimcasts.org/episodes/the-edit-command/
 " Synonyms: {e: edit, where: {w: window, s: split, v: vertical split, t: tab}}
@@ -131,9 +128,6 @@ nnoremap <leader><space> :nohlsearch<CR>
 
 " Write and build the current file
 map <leader>m :write<CR> :make<CR>
-
-" Command-T
-nmap <leader>f :CommandT<CR>
 
 " Function keys {{{2
 
