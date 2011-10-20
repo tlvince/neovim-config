@@ -92,7 +92,7 @@ if has("win32") || has("win64")
 endif
 
 " Return to normal mode
-inoremap jj <ESC>
+inoremap jk <ESC>
 
 " Always move between wrapped lines
 nnoremap j gj
