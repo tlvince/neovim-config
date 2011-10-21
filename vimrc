@@ -130,7 +130,7 @@ map <leader>et :tabe %%
 nnoremap <leader><space> :nohlsearch<CR>
 
 " Write and build the current file
-map <leader>m :write<CR> :make<CR>
+map <leader>m :write<CR> :make %<CR>
 
 " Function keys {{{2
 
