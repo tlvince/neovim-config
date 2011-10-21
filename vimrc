@@ -44,7 +44,7 @@ set hlsearch            " ... as you type
 
 " Wrapping
 set textwidth=80        " Hard-wrap text at nth column
-set wrap                " Wrap long lines
+set nowrap              " Don't wrap long lines (good for vsplits)
 
 " General
 set ruler               " Show [line,col] number (in status bar)
