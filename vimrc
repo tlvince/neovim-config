@@ -130,7 +130,7 @@ map <leader>et :tabe %%
 nnoremap <leader><space> :nohlsearch<CR>
 
 " Write and build the current file
-map <leader>m :write<CR> :make %<CR>
+map <leader>m :write<CR> :make<CR>
 
 " Function keys {{{2
 
@@ -199,9 +199,6 @@ if has('autocmd')
 
     " Enable the occam-pi compiler plugin
     autocmd Filetype occam compiler occam-pi
-
-    " Run the current file if there was no error
-    autocmd QuickFixCmdPost make call BuildAndRun()
 endif
 
 " Functions {{{1
@@ -237,24 +234,5 @@ function! HeadingLevel(lnum)
     " Otherwise keep the previous foldlevel
     else
         return '='
-    endif
-endfunction
-
-" Run the current file if there was no error after make.
-function! BuildAndRun()
-    let qflist = getqflist()
-    let run = '! ./%:t:r'
-
-    if qflist == []
-        exec run
-    else
-        for error in qflist
-            if error["valid"]
-                return
-            else
-                exec run
-                return
-            endif
-        endfor
     endif
 endfunction
