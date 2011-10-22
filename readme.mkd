@@ -60,5 +60,5 @@ Thanks
   [sl]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/
   [pb]: https://github.com/pbrisbin/dotfiles
   [vc]: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
-  [howto]: http://www.tlvince.com/linux/vim-respect-xdg/
+  [howto]: http://tlvince.com/2011/02/03/vim-respect-xdg/
   [vs]: http://vim-scripts.org/
