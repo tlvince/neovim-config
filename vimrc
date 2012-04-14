@@ -200,6 +200,9 @@ if has('autocmd')
 
     " Enable the occam-pi compiler plugin
     autocmd Filetype occam compiler occam-pi
+
+    " Enable standard two-space indentation for CoffeeScript
+    autocmd BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 endif
 
 " Functions {{{1
