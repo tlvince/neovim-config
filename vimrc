@@ -133,6 +133,9 @@ nnoremap <leader><space> :nohlsearch<CR>
 " Write and build the current file
 map <leader>m :write<CR> :make %<CR>
 
+" Run the binary of the current file
+map <leader>r :!./%:r<CR>
+
 " Function keys {{{2
 
 " Toggle paste mode (particularly useful to temporarily disable autoindent)
