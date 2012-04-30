@@ -25,10 +25,6 @@ Usage
 
         mkdir $XDG_CACHE_HOME/vim
 
-5. Compile the Command-T plugin (requires Vim with Ruby suppport):
-
-        cd bundle/command-t/ruby/command-t && ruby extconf.rb && make && cd -
-
 ### gVim Portable (Windows)
 
 A few additional steps are required for gVim Portable under Windows:
