@@ -52,9 +52,6 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle/vimwiki-vim"]
-	path = bundle/vimwiki-vim
-	url = https://tlvince@github.com/tlvince/vimwiki-vim.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
