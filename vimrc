@@ -144,6 +144,8 @@ set pastetoggle=<F3>
 " Toggle spelling and show it's status
 map <F7> :setlocal spell! spell?<CR>
 
+nmap <F8> :TagbarToggle<CR>
+
 " Disabled keys {{{2
 
 " Disable arrow keys (force good habits)
@@ -186,7 +188,7 @@ if has('autocmd')
     autocmd Filetype markdown nmap <leader>p :call PreviewMarkdown()<CR>
 
     " Fold Markdown files based on the heading level
-    autocmd Filetype markdown,pdc set foldmethod=expr foldexpr=HeadingLevel(v:lnum)
+    autocmd Filetype markdown,pdc,pdc.help set foldmethod=expr foldexpr=HeadingLevel(v:lnum)
 
     " Syntax highlight Pandoc files
     autocmd Bufread,BufNewFile *.pdc set filetype=pdc
@@ -206,6 +208,10 @@ if has('autocmd')
 
     " Enable standard two-space indentation for CoffeeScript
     autocmd BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
+
+    " Generate tags when a wiki file is written
+    autocmd BufNewFile,BufRead ~/doc/wiki/* set filetype=pdc.help
+    autocmd BufWritePost ~/doc/wiki/* :helptags ~/doc/wiki
 endif
 
 " Functions {{{1
