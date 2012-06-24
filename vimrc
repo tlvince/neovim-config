@@ -178,36 +178,16 @@ let g:SuperTabDefaultCompletionType = "context"
 
 " Autocommands {{{1
 if has('autocmd')
-    " Always fold Python files
-    autocmd Filetype python set foldmethod=indent
 
     " Re-source vimrc whenever changes are saved
     autocmd BufWritePost vimrc source $MYVIMRC
 
-    " Bind leader + p to preview Markdown files
-    autocmd Filetype markdown nmap <leader>p :call PreviewMarkdown()<CR>
-
     " Fold Markdown files based on the heading level
     autocmd Filetype markdown,pdc,pdc.help set foldmethod=expr foldexpr=HeadingLevel(v:lnum)
-
-    " Syntax highlight Pandoc files
-    autocmd Bufread,BufNewFile *.pdc set filetype=pdc
-
-    " Enable omni-complete for Python files
-    autocmd Filetype python set omnifunc=pythoncomplete#Complete
 
     " Automatically open the quickfix window on :make
     autocmd QuickFixCmdPost [^l]* nested cwindow
     autocmd QuickFixCmdPost    l* nested lwindow
-
-    " Enable the Python compiler plugin
-    autocmd Filetype python compiler python
-
-    " Enable the occam-pi compiler plugin
-    autocmd Filetype occam compiler occam-pi
-
-    " Enable standard two-space indentation for CoffeeScript
-    autocmd BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 
     " Generate tags when a wiki file is written
     autocmd BufNewFile,BufRead ~/doc/wiki/* set filetype=pdc.help
