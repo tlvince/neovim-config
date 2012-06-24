@@ -10,7 +10,7 @@ Usage
 
 1. Clone the repository:
 
-        git clone https://github.com/tlvince/vimfiles.git $XDG_CONFIG_HOME/vim
+        git clone https://github.com/tlvince/vim-config.git $XDG_CONFIG_HOME/vim
 
 2. Switch to the `$XDG_CONFIG_HOME/vim` directory and fetch the submodules:
 
