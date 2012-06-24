@@ -216,13 +216,6 @@ endif
 
 " Functions {{{1
 
-" Preview Markdown files, depending on an external script.
-function! PreviewMarkdown()
-    :write
-    :silent !markdown "%"
-    :redraw!
-endfunction
-
 " Return the level of setext and atx style headers.
 " See: http://tech.groups.yahoo.com/group/vim/message/120033
 function! HeadingLevel(lnum)
