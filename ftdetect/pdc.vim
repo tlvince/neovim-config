@@ -1,1 +1,1 @@
-autocmd BufEnter *.pdc set filetype=pdc
+autocmd BufEnter *.pdc setlocal filetype=pdc
