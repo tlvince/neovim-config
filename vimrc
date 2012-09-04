@@ -107,7 +107,7 @@ nnoremap <C-l> <C-w>l
 
 " Sudo to write
 if has ('unix')
-    cmap w!! w !sudo tee % >/dev/null
+    cmap w!! SudoWrite<CR>
 endif
 
 " Leader keys {{{2

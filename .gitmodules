@@ -82,3 +82,6 @@
 [submodule "bundle/autocomplpop"]
 	path = bundle/autocomplpop
 	url = https://github.com/vim-scripts/AutoComplPop.git
+[submodule "bundle/vim-eunuch"]
+	path = bundle/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch.git
