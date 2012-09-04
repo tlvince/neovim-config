@@ -73,9 +73,9 @@
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/snipmate-snippets"]
-	path = bundle/snipmate-snippets
-	url = https://github.com/tlvince/snipmate-snippets.git
 [submodule "bundle/detectindent"]
 	path = bundle/detectindent
 	url = https://github.com/ciaranm/detectindent.git
+[submodule "bundle/snipmate-snippets"]
+	path = bundle/snipmate-snippets
+	url = https://github.com/tlvince/snipmate-snippets.git
