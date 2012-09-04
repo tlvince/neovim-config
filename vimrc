@@ -176,6 +176,9 @@ let g:snippets_dir="$XDG_CONFIG_HOME/vim/bundle/snipmate-snippets"
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
 
+" detectindent
+let g:detectindent_preferred_expandtab = 1
+
 " Autocommands {{{1
 if has('autocmd')
 
