@@ -76,3 +76,6 @@
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = https://github.com/tlvince/snipmate-snippets.git
+[submodule "bundle/detectindent"]
+	path = bundle/detectindent
+	url = https://github.com/ciaranm/detectindent.git

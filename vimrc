@@ -192,6 +192,9 @@ if has('autocmd')
     " Generate tags when a wiki file is written
     autocmd BufNewFile,BufRead ~/doc/wiki/* set filetype=pdc.help
     autocmd BufWritePost ~/doc/wiki/* :helptags ~/doc/wiki
+
+    " Detect indentation settings for all files
+    autocmd BufReadPost * :DetectIndent
 endif
 
 " Functions {{{1
