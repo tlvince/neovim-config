@@ -85,3 +85,6 @@
 [submodule "bundle/vim-eunuch"]
 	path = bundle/vim-eunuch
 	url = https://github.com/tpope/vim-eunuch.git
+[submodule "bundle/matchem"]
+	path = bundle/matchem
+	url = https://github.com/ervandew/matchem.git
