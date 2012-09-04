@@ -21,9 +21,9 @@ Usage
 
         export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 
-4. Create the needed directory
+4. Create the required directories
 
-        mkdir $XDG_CACHE_HOME/vim
+        mkdir -p $XDG_CACHE_HOME/{vim,neocon}
 
 ### gVim Portable (Windows)
 
