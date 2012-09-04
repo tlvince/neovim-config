@@ -169,10 +169,6 @@ vnoremap <F1> <ESC>
 
 " Plugins {{{1
 
-" snipMate {{{2
-let g:snips_author='Tom Vincent <http://tlvince.com/contact/>'
-let g:snippets_dir="$XDG_CONFIG_HOME/vim/bundle/snipmate-snippets"
-
 " SuperTab {{{2
 let g:SuperTabDefaultCompletionType = "context"
 
@@ -203,10 +199,8 @@ imap <expr><TAB> neocomplcache#sources#snippets_complete#expandable() ?
   \"\<Plug>(neocomplcache_snippets_expand)" : pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " Plugin key-mappings.
-imap <C-k>              <Plug>(neocomplcache_snippets_expand)
-smap <C-k>              <Plug>(neocomplcache_snippets_expand)
-inoremap <expr><C-g>    neocomplcache#undo_completion()
-inoremap <expr><C-l>    neocomplcache#complete_common_string()
+inoremap <expr><C-g>  neocomplcache#undo_completion()
+inoremap <expr><C-l>  neocomplcache#complete_common_string()
 
 " <CR>: close popup
 " <s-CR>: close popup and save indent.
@@ -218,6 +212,13 @@ inoremap <expr><C-h> neocomplcache#smart_close_popup()."\<C-h>"
 inoremap <expr><BS> neocomplcache#smart_close_popup()."\<C-h>"
 inoremap <expr><C-y>  neocomplcache#close_popup()
 inoremap <expr><C-e>  neocomplcache#cancel_popup()
+
+" neocomplcache-snippets {{{2
+let g:snips_author='Tom Vincent <http://tlvince.com/contact/>'
+let g:neocomplcache_snippets_dir ="$XDG_CONFIG_HOME/vim/bundle/snipmate-snippets"
+
+imap <C-k>  <Plug>(neocomplcache_snippets_expand)
+smap <C-k>  <Plug>(neocomplcache_snippets_expand)
 
 " For snippet_complete marker.
 if has('conceal')
