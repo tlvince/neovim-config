@@ -6,3 +6,5 @@ update:
 
 helptags:
 	vim -c 'call pathogen#helptags()|q'
+
+.PHONY: all update helptags
