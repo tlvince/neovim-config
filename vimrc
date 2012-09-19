@@ -217,7 +217,7 @@ inoremap <expr><C-y>  neocomplcache#close_popup()
 inoremap <expr><C-e>  neocomplcache#cancel_popup()
 
 " neocomplcache-snippets {{{2
-let g:snips_author='Tom Vincent <http://tlvince.com/contact/>'
+let g:snips_author='Tom Vincent <http://tlvince.com/contact>'
 let g:neocomplcache_snippets_dir ="$XDG_CONFIG_HOME/vim/bundle/snipmate-snippets"
 
 imap <C-k>  <Plug>(neocomplcache_snippets_expand)
