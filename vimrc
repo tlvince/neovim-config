@@ -62,6 +62,9 @@ set backspace=indent,eol,start          " Allow backspacing on the given values
 " Ignore the following globs in file completions
 set wildignore+=*.o,*.obj,*.pyc,.git
 
+" Load man pages in a window (:help find-manpage)
+runtime! ftplugin/man.vim
+
 " Visuals {{{1
 "
 " Set up gvim, colour schemes and the like.
