@@ -139,6 +139,10 @@ map <leader>m :write<CR> :make %<CR>
 " Run the binary of the current file
 map <leader>r :!./%:r<CR>
 
+" UTC date
+nmap <leader>d a<C-R>=strftime("%Y-%m-%d")<CR>
+imap <leader>d <C-R>=strftime("%Y-%m-%d")<CR>
+
 " Function keys {{{2
 
 " Toggle paste mode (particularly useful to temporarily disable autoindent)
