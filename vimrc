@@ -57,7 +57,7 @@ set fillchars=""        " Remove characters in window split
 set encoding=utf-8      " Default encoding
 set scrolloff=3         " 3 lines of context
 
-set backspace=indent,eol,start          " Allow backspacing on the given values
+set backspace=indent,eol,start  " Allow backspacing on the given values
 
 " Ignore the following globs in file completions
 set wildignore+=*.o,*.obj,*.pyc,.git
@@ -70,20 +70,20 @@ runtime! ftplugin/man.vim
 " Set up gvim, colour schemes and the like.
 
 if has('gui_running')
-    if has('win32') || has('win64')
-        set guifont=DejaVu_Sans_Mono:h11,Consolas:h11,Courier_New:h11
-    else
-        set guifont=Monospace\ 11                " Fallback to system default
-    endif
-    set guioptions-=T                       " Hide toolbar
-    set guioptions-=m                       " Hide menu bar
-    set guioptions-=r                       " Hide right hand scroll bar
-    set guioptions-=L                       " Hide left hand scroll bar
-    set background=light
-    colorscheme solarized
+  if has('win32') || has('win64')
+      set guifont=DejaVu_Sans_Mono:h11,Consolas:h11,Courier_New:h11
+  else
+      set guifont=Monospace\ 11   " Fallback to system default
+  endif
+  set guioptions-=T               " Hide toolbar
+  set guioptions-=m               " Hide menu bar
+  set guioptions-=r               " Hide right hand scroll bar
+  set guioptions-=L               " Hide left hand scroll bar
+  set background=light
+  colorscheme solarized
 else
-    set background=dark
-    colorscheme molokai
+  set background=dark
+  colorscheme molokai
 endif
 
 " Mappings {{{1
@@ -92,7 +92,7 @@ endif
 
 " Silently open a shell in the directory of the current file
 if has("win32") || has("win64")
-    map ,s :silent !start cmd /k cd %:p:h <CR>
+  map ,s :silent !start cmd /k cd %:p:h <CR>
 endif
 
 " Return to normal mode
@@ -110,7 +110,7 @@ nnoremap <C-l> <C-w>l
 
 " Sudo to write
 if has ('unix')
-    cmap w!! SudoWrite<CR>
+  cmap w!! SudoWrite<CR>
 endif
 
 " Leader keys {{{2
@@ -251,14 +251,14 @@ let g:pandoc_use_hard_wraps = 1
 
 " Autocommands {{{1
 if has('autocmd')
-    " Automatically open the quickfix window on :make
-    autocmd QuickFixCmdPost [^l]* nested cwindow
-    autocmd QuickFixCmdPost    l* nested lwindow
+  " Automatically open the quickfix window on :make
+  autocmd QuickFixCmdPost [^l]* nested cwindow
+  autocmd QuickFixCmdPost    l* nested lwindow
 
-    " Generate tags when a wiki file is written
-    autocmd BufNewFile,BufRead ~/doc/wiki/* set filetype=pdc.help
-    autocmd BufWritePost ~/doc/wiki/* :helptags ~/doc/wiki
+  " Generate tags when a wiki file is written
+  autocmd BufNewFile,BufRead ~/doc/wiki/* set filetype=pdc.help
+  autocmd BufWritePost ~/doc/wiki/* :helptags ~/doc/wiki
 
-    " Detect indentation settings for all files
-    autocmd BufReadPost * :DetectIndent
+  " Detect indentation settings for all files
+  autocmd BufReadPost * :DetectIndent
 endif
