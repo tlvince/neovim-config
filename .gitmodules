@@ -19,9 +19,6 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "bundle/pdc"]
-	path = bundle/pdc
-	url = https://github.com/vim-scripts/pdc.vim.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
@@ -85,3 +82,9 @@
 [submodule "bundle/neocomplcache-snippets-complete"]
 	path = bundle/neocomplcache-snippets-complete
 	url = https://github.com/Shougo/neocomplcache-snippets-complete.git
+[submodule "bundle/vim-gnupg"]
+	path = bundle/vim-gnupg
+	url = https://github.com/jamessan/vim-gnupg.git
+[submodule "bundle/vim-pandoc"]
+	path = bundle/vim-pandoc
+	url = https://github.com/vim-pandoc/vim-pandoc.git
