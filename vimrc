@@ -246,6 +246,9 @@ vmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 nmap <Leader>a- :Tabularize /-<CR>
 vmap <Leader>a- :Tabularize /-<CR>
 
+" Pandoc {{{2
+let g:pandoc_use_hard_wraps = 1
+
 " Autocommands {{{1
 if has('autocmd')
 
