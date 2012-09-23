@@ -85,9 +85,9 @@
 [submodule "bundle/vim-gnupg"]
 	path = bundle/vim-gnupg
 	url = https://github.com/jamessan/vim-gnupg.git
-[submodule "bundle/vim-pandoc"]
-	path = bundle/vim-pandoc
-	url = https://github.com/vim-pandoc/vim-pandoc.git
 [submodule "bundle/vim-markdownfootnotes"]
 	path = bundle/vim-markdownfootnotes
 	url = https://github.com/vim-pandoc/vim-markdownfootnotes.git
+[submodule "bundle/vim-pandoc"]
+	path = bundle/vim-pandoc
+	url = https://github.com/vim-pandoc/vim-pandoc.git
