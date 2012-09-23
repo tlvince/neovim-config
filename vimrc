@@ -251,10 +251,6 @@ let g:pandoc_use_hard_wraps = 1
 
 " Autocommands {{{1
 if has('autocmd')
-
-    " Re-source vimrc whenever changes are saved
-    autocmd BufWritePost vimrc source $MYVIMRC
-
     " Automatically open the quickfix window on :make
     autocmd QuickFixCmdPost [^l]* nested cwindow
     autocmd QuickFixCmdPost    l* nested lwindow
