@@ -83,7 +83,7 @@ if has('gui_running')
   colorscheme solarized
 else
   set background=dark
-  colorscheme molokai
+  colorscheme solarized
 endif
 
 " Mappings {{{1
@@ -248,6 +248,10 @@ vmap <Leader>a- :Tabularize /-<CR>
 
 " Pandoc {{{2
 let g:pandoc_use_hard_wraps = 1
+
+" Solarized {{{2
+" Toggle background
+call togglebg#map("<F5>")
 
 " Autocommands {{{1
 if has('autocmd')
