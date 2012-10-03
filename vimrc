@@ -143,6 +143,9 @@ map <leader>r :!./%:r<CR>
 nmap <leader>d a<C-R>=strftime("%Y-%m-%d")<CR>
 imap <leader>d <C-R>=strftime("%Y-%m-%d")<CR>
 
+" pwgen
+nmap <leader>p :read !pwgen -sy1 16<CR>
+
 " Function keys {{{2
 
 " Toggle paste mode (particularly useful to temporarily disable autoindent)
