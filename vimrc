@@ -144,7 +144,7 @@ nmap <leader>d a<C-R>=strftime("%Y-%m-%d")<CR>
 imap <leader>d <C-R>=strftime("%Y-%m-%d")<CR>
 
 " pwgen
-nmap <leader>p :read !pwgen -sy1 16<CR>
+nmap <leader>p :read !pwgen -sy1 32<CR>
 
 " Function keys {{{2
 
