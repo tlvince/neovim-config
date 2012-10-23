@@ -94,3 +94,6 @@
 [submodule "bundle/neosnippet"]
 	path = bundle/neosnippet
 	url = https://github.com/Shougo/neosnippet.git
+[submodule "bundle/sunset"]
+	path = bundle/sunset
+	url = https://github.com/amdt/sunset.git
