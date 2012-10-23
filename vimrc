@@ -117,6 +117,7 @@ endif
 
 " Map leader (the dedicated user-mapping prefix key) to comma
 let mapleader = ","
+let maplocalleader = ","
 
 " Leader + v to open vimrc in a new tab
 nmap <leader>v :tabedit $MYVIMRC<CR>
@@ -255,6 +256,11 @@ let g:pandoc_use_hard_wraps = 1
 " Solarized {{{2
 " Toggle background
 call togglebg#map("<F5>")
+
+" Sunset {{{2
+let g:sunset_latitude   = 22.278333
+let g:sunset_longitude  = 114.158889
+let g:sunset_utc_offset = 8
 
 " Autocommands {{{1
 if has('autocmd')
