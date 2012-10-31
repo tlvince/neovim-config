@@ -97,3 +97,6 @@
 [submodule "bundle/sunset"]
 	path = bundle/sunset
 	url = https://github.com/amdt/sunset.git
+[submodule "bundle/vim-ledger"]
+	path = bundle/vim-ledger
+	url = https://github.com/tlvince/vim-ledger.git
