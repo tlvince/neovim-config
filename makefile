@@ -12,7 +12,7 @@ bundle:
 	if test $$basename; then \
 		git submodule add $(url) bundle/$$basename; \
 		git commit bundle/$$basename .gitmodules --message \
-			"Added $$basename as submodule"; \
+			"Added $$basename as a submodule"; \
 	else \
 		echo "usage: make bundle url=..."; \
 	fi
