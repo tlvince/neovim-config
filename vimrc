@@ -262,15 +262,18 @@ let g:sunset_latitude   = 22.278333
 let g:sunset_longitude  = 114.158889
 let g:sunset_utc_offset = 8
 
+" vimwiki {{{2
+let g:vimwiki_list = [{
+  \ 'path': '~/doc/wiki/',
+  \ 'syntax': 'markdown',
+  \ 'ext': '.mkd'
+\ }]
+
 " Autocommands {{{1
 if has('autocmd')
   " Automatically open the quickfix window on :make
   autocmd QuickFixCmdPost [^l]* nested cwindow
   autocmd QuickFixCmdPost    l* nested lwindow
-
-  " Generate tags when a wiki file is written
-  autocmd BufNewFile,BufRead ~/doc/wiki/* set filetype=pdc.help
-  autocmd BufWritePost ~/doc/wiki/* :helptags ~/doc/wiki
 
   " Detect indentation settings for all files
   autocmd BufReadPost * :DetectIndent
