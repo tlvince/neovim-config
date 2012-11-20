@@ -147,6 +147,9 @@ imap <leader>d <C-R>=strftime("%Y-%m-%d")<CR>
 " pwgen
 nmap <leader>p :read !pwgen -sy1 32<CR>
 
+" Toggle highlighting of current line and column
+nnoremap <leader>c :setlocal cursorline! cursorcolumn!<CR>
+
 " Function keys {{{2
 
 " Toggle paste mode (particularly useful to temporarily disable autoindent)
