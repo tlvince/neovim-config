@@ -269,6 +269,7 @@ let g:sunset_utc_offset = 8
 let g:vimwiki_list = [{
   \ 'path': '~/doc/wiki/',
   \ 'syntax': 'markdown',
+  \ 'index': 'home',
   \ 'ext': '.mkd'
 \ }]
 
