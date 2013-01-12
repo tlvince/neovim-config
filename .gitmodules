@@ -109,3 +109,6 @@
 [submodule "bundle/vim-find-android-manifest"]
 	path = bundle/vim-find-android-manifest
 	url = https://github.com/vim-android/vim-find-android-manifest.git
+[submodule "bundle/vim-adb-logcat"]
+	path = bundle/vim-adb-logcat
+	url = https://github.com/vim-android/vim-adb-logcat.git
