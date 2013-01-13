@@ -112,3 +112,6 @@
 [submodule "bundle/android-javacomplete"]
 	path = bundle/android-javacomplete
 	url = https://github.com/tlvince/android-javacomplete.git
+[submodule "bundle/vim-compiler-android"]
+	path = bundle/vim-compiler-android
+	url = https://github.com/vim-android/vim-compiler-android.git
