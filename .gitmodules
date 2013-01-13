@@ -109,3 +109,6 @@
 [submodule "bundle/javacomplete"]
 	path = bundle/javacomplete
 	url = https://github.com/tlvince/javacomplete.git
+[submodule "bundle/android-javacomplete"]
+	path = bundle/android-javacomplete
+	url = https://github.com/tlvince/android-javacomplete.git
