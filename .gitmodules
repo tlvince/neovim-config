@@ -103,9 +103,6 @@
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = https://github.com/tlvince/snipmate-snippets.git
-[submodule "bundle/javacomplete"]
-	path = bundle/javacomplete
-	url = https://github.com/vim-scripts/javacomplete.git
 [submodule "bundle/vim-find-android-manifest"]
 	path = bundle/vim-find-android-manifest
 	url = https://github.com/vim-android/vim-find-android-manifest.git
