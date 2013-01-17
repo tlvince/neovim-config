@@ -103,9 +103,6 @@
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = https://github.com/tlvince/snipmate-snippets.git
-[submodule "bundle/vim-adb-logcat"]
-	path = bundle/vim-adb-logcat
-	url = https://github.com/vim-android/vim-adb-logcat.git
 [submodule "bundle/javacomplete"]
 	path = bundle/javacomplete
 	url = https://github.com/tlvince/javacomplete.git
