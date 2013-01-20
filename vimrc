@@ -50,7 +50,7 @@ set nowrap              " Don't wrap long lines (good for vsplits)
 " General
 set ruler               " Show [line,col] number (in status bar)
 set showmode            " Persistent notice of current mode
-set history=50          " Number of ":" commands and searches to remember 
+set history=50          " Number of ":" commands and searches to remember
 set spelllang=en_gb     " Speak proper English
 set wildmenu            " dmenu style menu for commands
 set fillchars=""        " Remove characters in window split
@@ -103,7 +103,7 @@ nnoremap j gj
 nnoremap k gk
 
 " Move between splits with CTRL+[hjkl]
-nnoremap <C-h> <C-w>h       
+nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
