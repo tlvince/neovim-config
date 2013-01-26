@@ -82,9 +82,6 @@
 [submodule "bundle/neosnippet"]
 	path = bundle/neosnippet
 	url = https://github.com/Shougo/neosnippet.git
-[submodule "bundle/sunset"]
-	path = bundle/sunset
-	url = https://github.com/amdt/sunset.git
 [submodule "bundle/vim-ledger"]
 	path = bundle/vim-ledger
 	url = https://github.com/ledger/vim-ledger.git
