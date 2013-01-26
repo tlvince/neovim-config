@@ -181,6 +181,9 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
+" Disable Ex mode
+nnoremap Q <nop>
+
 " Plugins {{{1
 
 " SuperTab {{{2
