@@ -66,9 +66,8 @@ set wildignore+=*.o,*.obj,*.pyc,.git
 runtime! ftplugin/man.vim
 
 " Visuals {{{1
-"
-" Set up gvim, colour schemes and the like.
 
+" GVim {{{2
 if has('gui_running')
   if has('win32') || has('win64')
       set guifont=DejaVu_Sans_Mono:h11,Consolas:h11,Courier_New:h11
@@ -79,12 +78,11 @@ if has('gui_running')
   set guioptions-=m               " Hide menu bar
   set guioptions-=r               " Hide right hand scroll bar
   set guioptions-=L               " Hide left hand scroll bar
-  set background=light
-  colorscheme solarized
-else
-  set background=dark
-  colorscheme solarized
 endif
+
+" Colourscheme {{{2
+set background=dark
+colorscheme solarized
 
 " Mappings {{{1
 "
