@@ -144,8 +144,8 @@ map <leader>m :write<CR> :make %<CR>
 map <leader>r :!./%:r<CR>
 
 " UTC date
-nmap <leader>d a<C-R>=strftime("%Y-%m-%d")<CR>
-imap <leader>d <C-R>=strftime("%Y-%m-%d")<CR>
+nmap <leader>t a<C-R>=strftime("%Y-%m-%d")<CR>
+imap <leader>t <C-R>=strftime("%Y-%m-%d")<CR>
 
 " pwgen
 nmap <leader>p :read !pwgen -sy1 32<CR>
@@ -189,9 +189,6 @@ nnoremap Q <nop>
 
 " Plugins {{{1
 
-" SuperTab {{{2
-let g:SuperTabDefaultCompletionType = "context"
-
 " detectindent {{{2
 let g:detectindent_preferred_expandtab = 1
 
@@ -202,8 +199,6 @@ nnoremap <silent> <leader>gc :Gcommit<CR>
 nnoremap <silent> <leader>gb :Gblame<CR>
 nnoremap <silent> <leader>gl :Glog<CR>
 nnoremap <silent> <leader>gp :Git push<CR>
-
-
 
 " Tabularize {{{2
 nmap <Leader>a= :Tabularize /=<CR>
@@ -225,11 +220,6 @@ let g:pandoc_use_hard_wraps = 1
 " Solarized {{{2
 " Toggle background
 call togglebg#map("<F5>")
-
-" Sunset {{{2
-let g:sunset_latitude   = 22.278333
-let g:sunset_longitude  = 114.158889
-let g:sunset_utc_offset = 8
 
 " vimwiki {{{2
 let g:vimwiki_list = [{
