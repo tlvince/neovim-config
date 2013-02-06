@@ -203,47 +203,7 @@ nnoremap <silent> <leader>gb :Gblame<CR>
 nnoremap <silent> <leader>gl :Glog<CR>
 nnoremap <silent> <leader>gp :Git push<CR>
 
-" neocomplcache {{{2
-let g:neocomplcache_enable_at_startup = 1
-let g:neocomplcache_enable_camel_case_completion = 1
-let g:neocomplcache_enable_smart_case = 1
-let g:neocomplcache_enable_underbar_completion = 1
-let g:neocomplcache_min_syntax_length = 3
-let g:neocomplcache_enable_auto_select = 1
-let g:neocomplcache_enable_auto_delimiter = 1
 
-let g:neocomplcache_temporary_dir = expand("$XDG_CACHE_HOME/neocon")
-
-" SuperTab like snippets behavior.
-imap <expr><TAB> neocomplcache#sources#snippets_complete#expandable() ?
-  \"\<Plug>(neocomplcache_snippets_expand)" : pumvisible() ? "\<C-n>" : "\<TAB>"
-
-" Plugin key-mappings.
-inoremap <expr><C-g>  neocomplcache#undo_completion()
-inoremap <expr><C-l>  neocomplcache#complete_common_string()
-
-" <CR>: close popup
-" <s-CR>: close popup and save indent.
-inoremap <expr><CR>  pumvisible() ? neocomplcache#close_popup() : "\<CR>"
-inoremap <expr><s-CR> pumvisible() ? neocomplcache#close_popup() "\<CR>" : "\<CR>"
-
-" <C-h>, <BS>: close popup and delete backword char.
-inoremap <expr><C-h> neocomplcache#smart_close_popup()."\<C-h>"
-inoremap <expr><BS> neocomplcache#smart_close_popup()."\<C-h>"
-inoremap <expr><C-y>  neocomplcache#close_popup()
-inoremap <expr><C-e>  neocomplcache#cancel_popup()
-
-" neocomplcache-snippets {{{2
-let g:snips_author='Tom Vincent <http://tlvince.com/contact>'
-let g:neocomplcache_snippets_dir ="$XDG_CONFIG_HOME/vim/bundle/snipmate-snippets"
-
-imap <C-k>  <Plug>(neocomplcache_snippets_expand)
-smap <C-k>  <Plug>(neocomplcache_snippets_expand)
-
-" For snippet_complete marker.
-if has('conceal')
-  set conceallevel=2 concealcursor=i
-endif
 
 " Tabularize {{{2
 nmap <Leader>a= :Tabularize /=<CR>

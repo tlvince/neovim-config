@@ -46,9 +46,6 @@
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule "bundle/tlib_vim"]
-	path = bundle/tlib_vim
-	url = https://github.com/tomtom/tlib_vim.git
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
@@ -61,9 +58,6 @@
 [submodule "bundle/matchem"]
 	path = bundle/matchem
 	url = https://github.com/ervandew/matchem.git
-[submodule "bundle/neocomplcache"]
-	path = bundle/neocomplcache
-	url = https://github.com/Shougo/neocomplcache.git
 [submodule "bundle/vim-gnupg"]
 	path = bundle/vim-gnupg
 	url = https://github.com/jamessan/vim-gnupg.git
@@ -79,9 +73,6 @@
 [submodule "bundle/vim-bad-whitespace"]
 	path = bundle/vim-bad-whitespace
 	url = https://github.com/bitc/vim-bad-whitespace.git
-[submodule "bundle/neosnippet"]
-	path = bundle/neosnippet
-	url = https://github.com/Shougo/neosnippet.git
 [submodule "bundle/vim-ledger"]
 	path = bundle/vim-ledger
 	url = https://github.com/ledger/vim-ledger.git
