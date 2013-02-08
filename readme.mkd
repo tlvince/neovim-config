@@ -23,7 +23,12 @@ Usage
 
 4. Create the required directories
 
-        mkdir -p $XDG_CACHE_HOME/{vim,neocon}
+        mkdir -p $XDG_CACHE_HOME/vim
+
+5. Compile YouCompleteMe
+
+        cd bundle/YouCompleteMe
+        ./install
 
 ### gVim Portable (Windows)
 
