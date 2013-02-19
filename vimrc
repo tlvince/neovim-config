@@ -237,6 +237,11 @@ let g:syntastic_auto_loc_list=1
 " Prevent collision with EasyMotion
 let g:ycm_key_detailed_diagnostics = ''
 
+" UtilSnips {{{2
+let g:UltiSnipsExpandTrigger='<c-j>'
+let g:UltiSnipsJumpForwardTrigger='<c-j>'
+let g:UltiSnipsJumpBackwardTrigger='<c-k>'
+
 " Autocommands {{{1
 if has('autocmd')
   " Automatically open the quickfix window on :make
