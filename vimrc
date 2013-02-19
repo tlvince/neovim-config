@@ -232,6 +232,11 @@ let g:vimwiki_list = [{
 " syntastic {{{2
 let g:syntastic_auto_loc_list=1
 
+" YouCompleteMe {{{2
+
+" Prevent collision with EasyMotion
+let g:ycm_key_detailed_diagnostics = ''
+
 " Autocommands {{{1
 if has('autocmd')
   " Automatically open the quickfix window on :make
