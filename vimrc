@@ -229,6 +229,9 @@ let g:vimwiki_list = [{
   \ 'ext': '.mkd'
 \ }]
 
+" syntastic {{{2
+let g:syntastic_auto_loc_list=1
+
 " Autocommands {{{1
 if has('autocmd')
   " Automatically open the quickfix window on :make
