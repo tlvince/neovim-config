@@ -242,6 +242,9 @@ let g:UltiSnipsExpandTrigger='<c-j>'
 let g:UltiSnipsJumpForwardTrigger='<c-j>'
 let g:UltiSnipsJumpBackwardTrigger='<c-k>'
 
+" Scratch {{{2
+nnoremap <silent> <leader><tab> :ScratchToggle<cr>
+
 " Autocommands {{{1
 if has('autocmd')
   " Automatically open the quickfix window on :make
