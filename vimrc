@@ -134,6 +134,9 @@ map <leader>es :sp %%
 map <leader>ev :vsp %%
 map <leader>et :tabe %%
 
+" Create a directory relative to the current file
+map <leader>d :!mkdir -p %%
+
 " Disable search highlighting
 nnoremap <leader><space> :nohlsearch<CR>
 
@@ -213,6 +216,10 @@ nmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 vmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 nmap <Leader>a- :Tabularize /-<CR>
 vmap <Leader>a- :Tabularize /-<CR>
+nmap <Leader>a-> :Tabularize /-><CR>
+vmap <Leader>a-> :Tabularize /-><CR>
+nmap <Leader>a=> :Tabularize /=><CR>
+vmap <Leader>a=> :Tabularize /=><CR>
 
 " Pandoc {{{2
 let g:pandoc_use_hard_wraps = 1
