@@ -100,3 +100,6 @@
 [submodule "bundle/vim-scratch"]
 	path = bundle/vim-scratch
 	url = https://github.com/molok/vim-scratch.git
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
