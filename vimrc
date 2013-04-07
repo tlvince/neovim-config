@@ -252,6 +252,11 @@ let g:UltiSnipsJumpBackwardTrigger='<c-k>'
 " Scratch {{{2
 nnoremap <silent> <leader><tab> :ScratchToggle<cr>
 
+" vim-gitgutter {{{2
+
+" Prevent flicker on redraw
+let g:gitgutter_sign_column_always = 1
+
 " Autocommands {{{1
 if has('autocmd')
   " Automatically open the quickfix window on :make
