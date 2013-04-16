@@ -61,7 +61,7 @@ set scrolloff=3         " 3 lines of context
 set backspace=indent,eol,start  " Allow backspacing on the given values
 
 " Ignore the following globs in file completions
-set wildignore+=*.o,*.obj,*.pyc,.git
+set wildignore+=*.o,*.obj,*.pyc,.git,.hg,.svn,DS_STORE
 
 " Load man pages in a window (:help find-manpage)
 runtime! ftplugin/man.vim
@@ -251,6 +251,9 @@ let g:UltiSnipsJumpBackwardTrigger='<c-k>'
 
 " Scratch {{{2
 nnoremap <silent> <leader><tab> :ScratchToggle<cr>
+
+" ctrlp {{{2
+let g:ctrlp_custom_ignore = 'node_modules'
 
 " Autocommands {{{1
 if has('autocmd')
