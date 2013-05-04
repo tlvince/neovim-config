@@ -12,7 +12,7 @@ helptags:
 	vim -c 'call pathogen#helptags()|q'
 
 bundle:
-	basename="$(notdir $(basename $(url)))"; \
+	@basename="$(notdir $(basename $(url)))"; \
 	if test $$basename; then \
 		git submodule add $(url) bundle/$$basename; \
 		git commit bundle/$$basename .gitmodules --message \
