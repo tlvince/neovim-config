@@ -1,34 +1,34 @@
 " vimrc: a monolithic vim setup. {{{1
-" Copyright 2009-2012 Tom Vincent <http://www.tlvince.com/contact/>
+" © 2009-2013 Tom Vincent <http://tlvince.com/contact>
 " vim: set fdm=marker:
 
-" Environment {{{1
-"
+" Environment {{{1 "
 " A consistent runtime environment.
 
 " Forget about vi and set it first as it modifies future behaviour
 set nocompatible
 
+" Set XDG runtime path first so we can load vim-sensible
+set runtimepath=$XDG_CONFIG_HOME/vim,$XDG_CONFIG_HOME/vim/after,$VIM,$VIMRUNTIME
+" Manually load vim-sensible so we can override its settings later
+runtime bundle/vim-sensible/plugin/sensible.vim
+
 " Make vim respect the XDG base directory spec.
 set directory=$XDG_CACHE_HOME/vim,~/,/tmp
 set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
 set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
-set runtimepath=$XDG_CONFIG_HOME/vim,$XDG_CONFIG_HOME/vim/after,$VIM,$VIMRUNTIME
+set undodir=$XDG_CACHE_HOME/vim,~/,/tmp
 let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc"
 let g:netrw_home=expand("$XDG_CACHE_HOME/vim")
 let $SUNROSE="$XDG_CONFIG_HOME/vim/.sunrose"
 
 " Load plugins managed by pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 " General preferences {{{1
 "
 " Learn about these using vim help.
-
-" File based
-filetype plugin on      " Load file type plugins
-filetype indent on      " Enable file type based indentation
-syntax on               " Enable syntax highlighting
 
 " Tabbing
 set tabstop=2           " The number of spaces a tab is
@@ -40,8 +40,6 @@ set expandtab           " Insert tabs as spaces
 set wrapscan            " Wrap searches
 set ignorecase          " Ignore search term case...
 set smartcase           " ... unless term contains an uppercase character
-set incsearch           " Highlight search...
-set showmatch           " ... results
 set hlsearch            " ... as you type
 
 " Wrapping
@@ -49,22 +47,16 @@ set textwidth=80        " Hard-wrap text at nth column
 set nowrap              " Don't wrap long lines (good for vsplits)
 
 " General
-set ruler               " Show [line,col] number (in status bar)
 set showmode            " Persistent notice of current mode
-set history=50          " Number of ":" commands and searches to remember
 set spelllang=en_gb     " Speak proper English
-set wildmenu            " dmenu style menu for commands
 set fillchars=""        " Remove characters in window split
 set encoding=utf-8      " Default encoding
-set scrolloff=3         " 3 lines of context
-
-set backspace=indent,eol,start  " Allow backspacing on the given values
 
 " Ignore the following globs in file completions
 set wildignore+=*.o,*.obj,*.pyc,.git,.hg,.svn,DS_STORE
 
 " Load man pages in a window (:help find-manpage)
-runtime! ftplugin/man.vim
+runtime ftplugin/man.vim
 
 " Visuals {{{1
 
@@ -134,11 +126,11 @@ map <leader>es :sp %%
 map <leader>ev :vsp %%
 map <leader>et :tabe %%
 
-" Create a directory relative to the current file
-map <leader>d :!mkdir -p %%
-
 " Disable search highlighting
 nnoremap <leader><space> :nohlsearch<CR>
+
+" Create a directory relative to the current file
+map <leader>d :!mkdir -p %%
 
 " Write and build the current file
 map <leader>m :write<CR> :make %<CR>
@@ -254,6 +246,10 @@ nnoremap <silent> <leader><tab> :ScratchToggle<cr>
 
 " ctrlp {{{2
 let g:ctrlp_custom_ignore = 'node_modules'
+
+" gitgutter {{{2
+let g:gitgutter_eager = 0
+highlight clear SignColumn
 
 " Autocommands {{{1
 if has('autocmd')
