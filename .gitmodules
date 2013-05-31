@@ -112,3 +112,6 @@
 [submodule "bundle/vim-restore-cursor"]
 	path = bundle/vim-restore-cursor
 	url = https://github.com/pbrisbin/vim-restore-cursor.git
+[submodule "bundle/vim-mkdir"]
+	path = bundle/vim-mkdir
+	url = https://github.com/pbrisbin/vim-mkdir.git
