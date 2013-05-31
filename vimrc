@@ -2,7 +2,7 @@
 " © 2009-2013 Tom Vincent <http://tlvince.com/contact>
 " vim: set fdm=marker:
 
-" Environment {{{1 "
+" Environment {{{1
 " A consistent runtime environment.
 
 " Forget about vi and set it first as it modifies future behaviour
@@ -222,7 +222,7 @@ call togglebg#map("<F5>")
 
 " vimwiki {{{2
 let g:vimwiki_list = [{
-  \ 'path': '~/doc/wiki/',
+  \ 'path': '~/documents/wiki/',
   \ 'syntax': 'markdown',
   \ 'index': 'home',
   \ 'ext': '.mkd'
