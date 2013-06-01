@@ -257,9 +257,6 @@ if has('autocmd')
   autocmd QuickFixCmdPost [^l]* nested cwindow
   autocmd QuickFixCmdPost    l* nested lwindow
 
-  " Re-source vimrc whenever changes are saved
-  autocmd BufWritePost vimrc source $MYVIMRC
-
   " Detect indentation settings for all files
   autocmd BufReadPost * :DetectIndent
 endif
