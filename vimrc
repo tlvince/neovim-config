@@ -248,7 +248,7 @@ nnoremap <silent> <leader><tab> :ScratchToggle<cr>
 let g:ctrlp_custom_ignore = 'node_modules'
 
 " gitgutter {{{2
-highlight clear SignColumn
+highlight! link SignColumn Background
 
 " Autocommands {{{1
 if has('autocmd')
