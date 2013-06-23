@@ -194,6 +194,7 @@ nnoremap <silent> <leader>gc :Gcommit<CR>
 nnoremap <silent> <leader>gb :Gblame<CR>
 nnoremap <silent> <leader>gl :Glog<CR>
 nnoremap <silent> <leader>gp :Git push<CR>
+nnoremap <silent> <leader>gg :Ggrep --ignore-case 
 
 " Tabularize {{{2
 nmap <Leader>a= :Tabularize /=<CR>
