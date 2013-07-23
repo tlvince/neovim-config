@@ -21,4 +21,12 @@ bundle:
 		echo "usage: make bundle url=..."; \
 	fi
 
+funcoo-on:
+	# funcoo workaround
+	# https://github.com/rizzatti/dash.vim/issues/7
+	mv bundle/funcoo.vim bundle/auncoo.vim
+
+funcoo-off:
+	mv bundle/auncoo.vim bundle/funcoo.vim
+
 .PHONY: all update helptags bundle build-ycm
