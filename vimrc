@@ -231,6 +231,7 @@ let g:vimwiki_list = [{
 
 " syntastic {{{2
 let g:syntastic_auto_loc_list=1
+let g:syntastic_html_tidy_ignore_errors = ['proprietary attribute "ng-']
 
 " YouCompleteMe {{{2
 
