@@ -250,7 +250,9 @@ nnoremap <silent> <leader><tab> :ScratchToggle<cr>
 let g:ctrlp_custom_ignore = 'node_modules'
 
 " gitgutter {{{2
+" https://github.com/altercation/vim-colors-solarized/pull/62
 highlight! link SignColumn Background
+autocmd ColorScheme * highlight! link SignColumn Background
 
 " Autocommands {{{1
 if has('autocmd')
