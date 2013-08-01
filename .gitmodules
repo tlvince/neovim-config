@@ -124,3 +124,6 @@
 [submodule "bundle/sparkup"]
 	path = bundle/sparkup
 	url = https://github.com/rstacruz/sparkup.git
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
