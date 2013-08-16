@@ -11,7 +11,9 @@ build-ycm:
 helptags:
 	vim -c 'call pathogen#helptags()|q'
 
-bundle:
+bundle: _bundle helptags
+
+_bundle:
 	@basename="$(notdir $(basename $(url)))"; \
 	if test $$basename; then \
 		git submodule add $(url) bundle/$$basename; \
