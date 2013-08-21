@@ -64,9 +64,6 @@
 [submodule "bundle/vim-bad-whitespace"]
 	path = bundle/vim-bad-whitespace
 	url = https://github.com/bitc/vim-bad-whitespace.git
-[submodule "bundle/vim-ledger"]
-	path = bundle/vim-ledger
-	url = https://github.com/ledger/vim-ledger.git
 [submodule "bundle/vimwiki"]
 	path = bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
