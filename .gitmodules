@@ -139,3 +139,6 @@
 [submodule "bundle/vim-javascript-syntax"]
 	path = bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule "bundle/vim-jsdoc"]
+	path = bundle/vim-jsdoc
+	url = https://github.com/heavenshell/vim-jsdoc.git
