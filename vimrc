@@ -254,6 +254,10 @@ let g:ctrlp_custom_ignore = 'node_modules'
 highlight! link SignColumn Background
 autocmd ColorScheme * highlight! link SignColumn Background
 
+" JSDoc {{{2
+let g:jsdoc_input_description = 1
+let g:jsdoc_allow_input_prompt = 1
+
 " Autocommands {{{1
 if has('autocmd')
   " Automatically open the quickfix window on :make
