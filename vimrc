@@ -257,6 +257,8 @@ autocmd ColorScheme * highlight! link SignColumn Background
 " JSDoc {{{2
 let g:jsdoc_input_description = 1
 let g:jsdoc_allow_input_prompt = 1
+let g:jsdoc_default_mapping = 0
+nmap <silent> <leader>j <Plug>(jsdoc)
 
 " Autocommands {{{1
 if has('autocmd')
