@@ -58,9 +58,6 @@
 [submodule "bundle/vim-pandoc"]
 	path = bundle/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/vim-bad-whitespace"]
 	path = bundle/vim-bad-whitespace
 	url = https://github.com/bitc/vim-bad-whitespace.git
