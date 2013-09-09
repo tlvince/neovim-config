@@ -75,7 +75,7 @@ endif
 
 " Colourscheme {{{2
 set background=light
-colorscheme solarized
+colorscheme base16-solarized
 
 if filereadable(expand($SUNROSE))
   source $SUNROSE
@@ -216,10 +216,6 @@ vmap <Leader>a=> :Tabularize /=><CR>
 
 " Pandoc {{{2
 let g:pandoc_use_hard_wraps = 1
-
-" Solarized {{{2
-" Toggle background
-call togglebg#map("<F5>")
 
 " vimwiki {{{2
 let g:vimwiki_list = [{
