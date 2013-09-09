@@ -74,7 +74,7 @@ if has('gui_running')
 endif
 
 " Colourscheme {{{2
-set background=light
+set background=dark
 colorscheme base16-solarized
 
 if filereadable(expand($SUNROSE))
