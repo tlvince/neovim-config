@@ -75,7 +75,7 @@ endif
 
 " Colourscheme {{{2
 set background=dark
-colorscheme base16-solarized
+colorscheme base16-eighties
 
 if filereadable(expand($SUNROSE))
   source $SUNROSE
