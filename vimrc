@@ -148,6 +148,9 @@ nmap <leader>p :read !pwgen -sy1 32<CR>
 " Toggle highlighting of current line and column
 nnoremap <leader>c :setlocal cursorline! cursorcolumn!<CR>
 
+" Toggle background
+map <leader>b :let &background = ( &background == "dark"? "light" : "dark" )<CR>
+
 " Function keys {{{2
 
 " Toggle paste mode (particularly useful to temporarily disable autoindent)
