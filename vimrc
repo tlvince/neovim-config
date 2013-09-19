@@ -74,7 +74,7 @@ if has('gui_running')
 endif
 
 " Colourscheme {{{2
-set background=dark
+set background=light
 colorscheme base16-eighties
 
 if filereadable(expand($SUNROSE))
@@ -247,6 +247,7 @@ nnoremap <silent> <leader><tab> :ScratchToggle<cr>
 
 " ctrlp {{{2
 let g:ctrlp_custom_ignore = 'node_modules'
+let g:ctrlp_reuse_window = 'startify'
 
 " gitgutter {{{2
 " https://github.com/altercation/vim-colors-solarized/pull/62
