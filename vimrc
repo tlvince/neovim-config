@@ -194,10 +194,11 @@ let g:detectindent_preferred_expandtab = 1
 nnoremap <silent> <leader>gs :Gstatus<CR>
 nnoremap <silent> <leader>gd :Gdiff<CR>
 nnoremap <silent> <leader>gc :Gcommit<CR>
-nnoremap <silent> <leader>gb :Gblame<CR>
+nnoremap <silent> <leader>gb :Gbrowse<CR>
 nnoremap <silent> <leader>gl :Glog<CR>
 nnoremap <silent> <leader>gp :Git push<CR>
 nnoremap <silent> <leader>gg :Ggrep --ignore-case 
+map <silent> <leader>gbd :Gbrowse origin/develop^{}:%<CR>
 
 " Tabularize {{{2
 nmap <Leader>a= :Tabularize /=<CR>
@@ -230,7 +231,7 @@ let g:vimwiki_list = [{
 
 " syntastic {{{2
 let g:syntastic_auto_loc_list=1
-let g:syntastic_html_tidy_ignore_errors = ['proprietary attribute "ng-']
+let g:syntastic_html_tidy_ignore_errors = [' proprietary attribute "ng-']
 
 " YouCompleteMe {{{2
 
