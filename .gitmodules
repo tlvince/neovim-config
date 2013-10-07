@@ -106,9 +106,6 @@
 [submodule "bundle/vim-mkdir"]
 	path = bundle/vim-mkdir
 	url = https://github.com/pbrisbin/vim-mkdir.git
-[submodule "bundle/funcoo.vim"]
-	path = bundle/funcoo.vim
-	url = https://github.com/rizzatti/funcoo.vim.git
 [submodule "bundle/dash.vim"]
 	path = bundle/dash.vim
 	url = https://github.com/rizzatti/dash.vim.git
@@ -145,3 +142,6 @@
 [submodule "bundle/phpfolding.vim"]
 	path = bundle/phpfolding.vim
 	url = https://github.com/rayburgemeestre/phpfolding.vim.git
+[submodule "bundle/funcoo.vim"]
+	path = bundle/funcoo.vim
+	url = https://github.com/rizzatti/funcoo.vim.git
