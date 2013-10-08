@@ -20,7 +20,6 @@ set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
 set undodir=$XDG_CACHE_HOME/vim,~/,/tmp
 let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc"
 let g:netrw_home=expand("$XDG_CACHE_HOME/vim")
-let $SUNROSE="$XDG_CONFIG_HOME/vim/.sunrose"
 
 " Load plugins managed by pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
@@ -76,10 +75,6 @@ endif
 " Colourscheme {{{2
 set background=light
 colorscheme base16-eighties
-
-if filereadable(expand($SUNROSE))
-  source $SUNROSE
-endif
 
 " Mappings {{{1
 "
