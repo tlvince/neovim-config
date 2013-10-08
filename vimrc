@@ -9,7 +9,7 @@
 set nocompatible
 
 " Set XDG runtime path first so we can load vim-sensible
-set runtimepath=$XDG_CONFIG_HOME/vim,$XDG_CONFIG_HOME/vim/after,$VIM,$VIMRUNTIME
+set runtimepath=$XDG_CONFIG_HOME/vim,$VIM,$VIMRUNTIME
 " Manually load vim-sensible so we can override its settings later
 runtime bundle/vim-sensible/plugin/sensible.vim
 
