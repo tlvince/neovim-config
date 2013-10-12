@@ -8,6 +8,10 @@ build-ycm:
 	cd bundle/YouCompleteMe; \
 	./install.sh
 
+build-tern:
+	cd bundle/tern_for_vim; \
+	npm install
+
 helptags:
 	vim -c 'call pathogen#helptags()|q'
 
@@ -31,4 +35,4 @@ funcoo-on:
 funcoo-off:
 	mv bundle/auncoo.vim bundle/funcoo.vim
 
-.PHONY: all update helptags bundle build-ycm
+.PHONY: all update helptags bundle build-ycm build-tern
