@@ -18,6 +18,7 @@ set directory=$XDG_CACHE_HOME/vim,~/,/tmp
 set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
 set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
 set undodir=$XDG_CACHE_HOME/vim,~/,/tmp
+set spellfile=$XDG_DATA_HOME/vim/spell/en.utf-8.add
 let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc"
 let g:netrw_home=expand("$XDG_CACHE_HOME/vim")
 
@@ -146,13 +147,13 @@ nnoremap <leader>c :setlocal cursorline! cursorcolumn!<CR>
 " Toggle background
 map <leader>b :let &background = ( &background == "dark"? "light" : "dark" )<CR>
 
+" Toggle spelling and show it's status
+nmap <silent><leader>s :setlocal spell! spell?<CR>
+
 " Function keys {{{2
 
 " Toggle paste mode (particularly useful to temporarily disable autoindent)
 set pastetoggle=<F3>
-
-" Toggle spelling and show it's status
-map <F7> :setlocal spell! spell?<CR>
 
 nmap <F8> :TagbarToggle<CR>
 
@@ -227,6 +228,7 @@ let g:vimwiki_list = [{
 " syntastic {{{2
 let g:syntastic_auto_loc_list=1
 let g:syntastic_html_tidy_ignore_errors = [' proprietary attribute "ng-']
+let g:syntastic_javascript_closure_compiler_path = expand("$CLOSURE_COMPILER_JAR")
 
 " YouCompleteMe {{{2
 
