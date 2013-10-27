@@ -1,27 +1,15 @@
 [submodule ".vim/bundle/securemodelines"]
 	path = .vim/bundle/securemodelines
 	url = https://github.com/ciaranm/securemodelines.git
-[submodule ".vim/bundle/surround"]
-	path = .vim/bundle/surround
-	url = https://github.com/tpope/vim-surround.git
 [submodule ".vim/bundle/tabular"]
 	path = .vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule ".vim/bundle/compiler-python"]
-	path = .vim/bundle/compiler-python
-	url = https://github.com/tlvince/vim-compiler-python
-[submodule ".vim/bundle/compiler-occam-pi"]
-	path = .vim/bundle/compiler-occam-pi
-	url = https://github.com/tlvince/vim-compiler-occam-pi
 [submodule ".vim/bundle/vim-fugitive"]
 	path = .vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule ".vim/bundle/vim-coffee-script"]
 	path = .vim/bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule ".vim/bundle/ctrlp"]
-	path = .vim/bundle/ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
 [submodule ".vim/bundle/tagbar"]
 	path = .vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
@@ -154,3 +142,15 @@
 [submodule ".vim/bundle/vim-abolish"]
 	path = .vim/bundle/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
+[submodule ".vim/bundle/vim-surround"]
+	path = .vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule ".vim/bundle/vim-compiler-python"]
+	path = .vim/bundle/vim-compiler-python
+	url = https://github.com/tlvince/vim-compiler-python
+[submodule ".vim/bundle/vim-compiler-occam-pi"]
+	path = .vim/bundle/vim-compiler-occam-pi
+	url = https://github.com/tlvince/vim-compiler-occam-pi
+[submodule ".vim/bundle/ctrlp.vim"]
+	path = .vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
