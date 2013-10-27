@@ -8,19 +8,8 @@
 " Forget about vi and set it first as it modifies future behaviour
 set nocompatible
 
-" Set XDG runtime path first so we can load vim-sensible
-set runtimepath=$XDG_CONFIG_HOME/vim,$VIM,$VIMRUNTIME
 " Manually load vim-sensible so we can override its settings later
 runtime bundle/vim-sensible/plugin/sensible.vim
-
-" Make vim respect the XDG base directory spec.
-set directory=$XDG_CACHE_HOME/vim,~/,/tmp
-set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
-set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
-set undodir=$XDG_CACHE_HOME/vim,~/,/tmp
-set spellfile=$XDG_DATA_HOME/vim/spell/en.utf-8.add
-let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc"
-let g:netrw_home=expand("$XDG_CACHE_HOME/vim")
 
 " Load plugins managed by pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
