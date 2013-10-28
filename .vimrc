@@ -11,6 +11,8 @@ set nocompatible
 " Manually load vim-sensible so we can override its settings later
 runtime bundle/vim-sensible/plugin/sensible.vim
 
+set spellfile="$HOME/.vim/spell/en.utf-8.add"
+
 " Load plugins managed by pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
