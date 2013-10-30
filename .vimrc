@@ -65,7 +65,8 @@ if has('gui_running')
 endif
 
 " Colourscheme {{{2
-set background=light
+set background=dark
+let base16colorspace=256
 colorscheme base16-eighties
 
 " Mappings {{{1
