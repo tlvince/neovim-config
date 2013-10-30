@@ -43,6 +43,8 @@ set spelllang=en_gb     " Speak proper English
 set fillchars=""        " Remove characters in window split
 set encoding=utf-8      " Default encoding
 
+set noshowcmd
+
 " Ignore the following globs in file completions
 set wildignore+=*.o,*.obj,*.pyc,.git,.hg,.svn,DS_STORE
 
