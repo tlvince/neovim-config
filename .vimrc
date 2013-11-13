@@ -216,7 +216,7 @@ let g:vimwiki_list = [{
   \ 'path': '~/documents/wiki/',
   \ 'syntax': 'markdown',
   \ 'index': 'home',
-  \ 'ext': '.mkd'
+  \ 'ext': '.md'
 \ }]
 
 " syntastic {{{2
