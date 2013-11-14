@@ -10,9 +10,6 @@
 [submodule ".vim/bundle/vim-coffee-script"]
 	path = .vim/bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule ".vim/bundle/tagbar"]
-	path = .vim/bundle/tagbar
-	url = https://github.com/majutsushi/tagbar.git
 [submodule ".vim/bundle/vim-less"]
 	path = .vim/bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
@@ -52,9 +49,6 @@
 [submodule ".vim/bundle/vimwiki"]
 	path = .vim/bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
-[submodule ".vim/bundle/blade.vim"]
-	path = .vim/bundle/blade.vim
-	url = https://github.com/johnhamelink/blade.vim.git
 [submodule ".vim/bundle/vim-easymotion"]
 	path = .vim/bundle/vim-easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
@@ -94,9 +88,6 @@
 [submodule ".vim/bundle/vim-mkdir"]
 	path = .vim/bundle/vim-mkdir
 	url = https://github.com/pbrisbin/vim-mkdir.git
-[submodule ".vim/bundle/dash.vim"]
-	path = .vim/bundle/dash.vim
-	url = https://github.com/rizzatti/dash.vim.git
 [submodule ".vim/bundle/sparkup"]
 	path = .vim/bundle/sparkup
 	url = https://github.com/rstacruz/sparkup.git
@@ -127,12 +118,6 @@
 [submodule ".vim/bundle/vim-startify"]
 	path = .vim/bundle/vim-startify
 	url = https://github.com/mhinz/vim-startify.git
-[submodule ".vim/bundle/phpfolding.vim"]
-	path = .vim/bundle/phpfolding.vim
-	url = https://github.com/rayburgemeestre/phpfolding.vim.git
-[submodule ".vim/bundle/funcoo.vim"]
-	path = .vim/bundle/funcoo.vim
-	url = https://github.com/rizzatti/funcoo.vim.git
 [submodule ".vim/bundle/javascript-libraries-syntax.vim"]
 	path = .vim/bundle/javascript-libraries-syntax.vim
 	url = https://github.com/othree/javascript-libraries-syntax.vim.git
@@ -142,12 +127,6 @@
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule ".vim/bundle/vim-compiler-python"]
-	path = .vim/bundle/vim-compiler-python
-	url = https://github.com/tlvince/vim-compiler-python
-[submodule ".vim/bundle/vim-compiler-occam-pi"]
-	path = .vim/bundle/vim-compiler-occam-pi
-	url = https://github.com/tlvince/vim-compiler-occam-pi
 [submodule ".vim/bundle/ctrlp.vim"]
 	path = .vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
