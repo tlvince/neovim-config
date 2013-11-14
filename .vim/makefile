@@ -8,10 +8,6 @@ build-ycm:
 	cd bundle/YouCompleteMe; \
 	./install.sh
 
-build-tern:
-	cd bundle/tern_for_vim; \
-	npm install
-
 helptags:
 	vim -c 'call pathogen#helptags()|q'
 
@@ -27,12 +23,4 @@ _bundle:
 		echo "usage: make bundle url=..."; \
 	fi
 
-funcoo-on:
-	# funcoo workaround
-	# https://github.com/rizzatti/dash.vim/issues/7
-	mv bundle/funcoo.vim bundle/auncoo.vim
-
-funcoo-off:
-	mv bundle/auncoo.vim bundle/funcoo.vim
-
-.PHONY: all update helptags bundle build-ycm build-tern
+.PHONY: all update helptags bundle build-ycm
