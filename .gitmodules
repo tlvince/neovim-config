@@ -129,4 +129,4 @@
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule ".vim/bundle/goyo.vim"]
 	path = .vim/bundle/goyo.vim
-	url = https://github.com/tlvince/goyo.vim.git
+	url = https://github.com/junegunn/goyo.vim.git
