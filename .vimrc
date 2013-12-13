@@ -254,11 +254,11 @@ nmap <silent> <leader>j <Plug>(jsdoc)
 
 " Goyo {{{2
 function! s:goyo_before()
-  set noshowmode
+  setlocal noshowmode
 endfunction
 
 function! s:goyo_after()
-  set showmode
+  setlocal showmode
 endfunction
 
 let g:goyo_callbacks = [function('s:goyo_before'), function('s:goyo_after')]
