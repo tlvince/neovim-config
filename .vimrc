@@ -252,6 +252,17 @@ let g:jsdoc_allow_input_prompt = 1
 let g:jsdoc_default_mapping = 0
 nmap <silent> <leader>j <Plug>(jsdoc)
 
+" Goyo {{{2
+function! s:goyo_before()
+  set noshowmode
+endfunction
+
+function! s:goyo_after()
+  set showmode
+endfunction
+
+let g:goyo_callbacks = [function('s:goyo_before'), function('s:goyo_after')]
+
 " Autocommands {{{1
 if has('autocmd')
   " Automatically open the quickfix window on :make
