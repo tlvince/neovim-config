@@ -130,3 +130,9 @@
 [submodule ".vim/bundle/ag.vim"]
 	path = .vim/bundle/ag.vim
 	url = https://github.com/rking/ag.vim.git
+[submodule ".vim/bundle/vim-pandoc-syntax"]
+	path = .vim/bundle/vim-pandoc-syntax
+	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
+[submodule ".vim/bundle/vim-pantondoc"]
+	path = .vim/bundle/vim-pantondoc
+	url = https://github.com/vim-pandoc/vim-pantondoc.git
