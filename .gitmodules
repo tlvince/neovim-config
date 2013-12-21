@@ -37,9 +37,6 @@
 [submodule ".vim/bundle/vim-gnupg"]
 	path = .vim/bundle/vim-gnupg
 	url = https://github.com/jamessan/vim-gnupg.git
-[submodule ".vim/bundle/vim-markdownfootnotes"]
-	path = .vim/bundle/vim-markdownfootnotes
-	url = https://github.com/vim-pandoc/vim-markdownfootnotes.git
 [submodule ".vim/bundle/vim-bad-whitespace"]
 	path = .vim/bundle/vim-bad-whitespace
 	url = https://github.com/bitc/vim-bad-whitespace.git
