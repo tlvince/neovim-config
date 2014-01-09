@@ -133,3 +133,6 @@
 [submodule ".vim/bundle/vim-pantondoc"]
 	path = .vim/bundle/vim-pantondoc
 	url = https://github.com/vim-pandoc/vim-pantondoc.git
+[submodule ".vim/bundle/vim-dispatch"]
+	path = .vim/bundle/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git
