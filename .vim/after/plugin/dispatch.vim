@@ -1,1 +1,1 @@
-map <leader>m :write<CR> :Dispatch! %<CR>
+map <leader>m :write<CR> :Make!<CR>
