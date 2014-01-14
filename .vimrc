@@ -144,6 +144,8 @@ map <leader>b :let &background = ( &background == "dark"? "light" : "dark" )<CR>
 " Toggle spelling and show it's status
 nmap <silent><leader>s :setlocal spell! spell?<CR>
 
+nmap <leader>q gqip
+
 " Function keys {{{2
 
 " Toggle paste mode (particularly useful to temporarily disable autoindent)
