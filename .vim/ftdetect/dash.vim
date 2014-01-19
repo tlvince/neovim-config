@@ -1,1 +1,1 @@
-autocmd BufEnter *.dash setlocal filetype=sh
+autocmd BufNewFile,BufEnter *.dash setlocal filetype=sh
