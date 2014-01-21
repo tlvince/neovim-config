@@ -46,7 +46,7 @@ set encoding=utf-8      " Default encoding
 set noshowcmd
 
 " Ignore the following globs in file completions
-set wildignore+=*.o,*.obj,*.pyc,.git,.hg,.svn,DS_STORE
+set wildignore+=*.o,*.obj,*.pyc,.git,.hg,.svn,DS_STORE,bower_components,node_modules
 
 " Load man pages in a window (:help find-manpage)
 runtime ftplugin/man.vim
