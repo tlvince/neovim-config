@@ -53,20 +53,6 @@ runtime ftplugin/man.vim
 
 " Visuals {{{1
 
-" GVim {{{2
-if has('gui_running')
-  if has('win32') || has('win64')
-      set guifont=DejaVu_Sans_Mono:h11,Consolas:h11,Courier_New:h11
-  else
-      set guifont=Monospace\ 11   " Fallback to system default
-  endif
-  set guioptions-=T               " Hide toolbar
-  set guioptions-=m               " Hide menu bar
-  set guioptions-=r               " Hide right hand scroll bar
-  set guioptions-=L               " Hide left hand scroll bar
-endif
-
-" Colourscheme {{{2
 set background=dark
 let base16colorspace=256
 colorscheme base16-eighties
