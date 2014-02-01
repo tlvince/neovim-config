@@ -139,3 +139,6 @@
 [submodule ".vim/bundle/angular-vim-snippets"]
 	path = .vim/bundle/angular-vim-snippets
 	url = https://github.com/matthewsimo/angular-vim-snippets.git
+[submodule ".vim/bundle/vim-snippets-tlvince"]
+	path = .vim/bundle/vim-snippets-tlvince
+	url = https://github.com/tlvince/vim-snippets-tlvince.git
