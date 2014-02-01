@@ -136,3 +136,6 @@
 [submodule ".vim/bundle/vim-dispatch"]
 	path = .vim/bundle/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch.git
+[submodule ".vim/bundle/angular-vim-snippets"]
+	path = .vim/bundle/angular-vim-snippets
+	url = https://github.com/matthewsimo/angular-vim-snippets.git
