@@ -4,12 +4,12 @@ let g:ycm_key_detailed_diagnostics = ''
 " Shim for UltiSnips tab completion
 " See: http://stackoverflow.com/a/18685821
 function! g:UltiSnips_Complete()
-  call UltiSnips_ExpandSnippet()
+  call UltiSnips#ExpandSnippet()
   if g:ulti_expand_res == 0
     if pumvisible()
       return "\<C-n>"
     else
-      call UltiSnips_JumpForwards()
+      call UltiSnips#JumpForwards()
       if g:ulti_jump_forwards_res == 0
          return "\<TAB>"
       endif
