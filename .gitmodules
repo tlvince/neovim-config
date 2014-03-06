@@ -142,3 +142,6 @@
 [submodule ".vim/bundle/vim-snippets-tlvince"]
 	path = .vim/bundle/vim-snippets-tlvince
 	url = https://github.com/tlvince/vim-snippets-tlvince.git
+[submodule ".vim/bundle/vim-snippets"]
+	path = .vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
