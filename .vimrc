@@ -42,8 +42,8 @@ set showmode            " Persistent notice of current mode
 set spelllang=en_gb     " Speak proper English
 set fillchars=""        " Remove characters in window split
 set encoding=utf-8      " Default encoding
-
 set noshowcmd
+set clipboard=unnamed
 
 " Ignore the following globs in file completions
 set wildignore+=*.o,*.obj,*.pyc,*.so,*.swp,*.zip,*.jpg,*.gif,*.png,*.pdf
