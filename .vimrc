@@ -173,9 +173,6 @@ if has('autocmd')
   " Detect indentation settings for all files
   autocmd BufReadPost * :DetectIndent
 
-  " Fold JS files
-  autocmd FileType javascript call JavaScriptFold()
-
   " http://wholemeal.co.nz/blog/2012/03/11/secure-password-storage-with-vim-and-gpg/
   augroup encrypted
     au!
