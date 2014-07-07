@@ -6,3 +6,4 @@ nnoremap <silent> <leader>gl :Glog<CR>
 nnoremap <silent> <leader>gp :Git push<CR>
 nnoremap <silent> <leader>gg :Ggrep --ignore-case 
 map <silent> <leader>gbd :Gbrowse origin/develop^{}:%<CR>
+set diffopt+=vertical
