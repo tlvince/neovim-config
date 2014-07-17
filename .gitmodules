@@ -148,3 +148,6 @@
 [submodule ".vim/bundle/vim-angular"]
 	path = .vim/bundle/vim-angular
 	url = https://github.com/burnettk/vim-angular.git
+[submodule ".vim/bundle/vim-auto-commit"]
+	path = .vim/bundle/vim-auto-commit
+	url = https://github.com/tlvince/vim-auto-commit.git
