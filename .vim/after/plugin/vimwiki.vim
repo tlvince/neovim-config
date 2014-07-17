@@ -4,3 +4,5 @@ let g:vimwiki_list = [{
   \ 'index': 'home',
   \ 'ext': '.md'
 \ }]
+
+autocmd BufWritePost ~/documents/wiki/* call AutoCommit()
