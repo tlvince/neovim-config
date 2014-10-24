@@ -55,7 +55,6 @@ runtime ftplugin/man.vim
 " Visuals {{{1
 
 set background=dark
-let base16colorspace=256
 colorscheme base16-eighties
 
 " Mappings {{{1
