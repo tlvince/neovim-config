@@ -12,6 +12,8 @@ set nocompatible
 runtime bundle/vim-sensible/plugin/sensible.vim
 
 set spellfile="$HOME/.vim/spell/en.utf-8.add"
+set backupdir=~/.vim/tmp,.
+set directory=~/.vim/tmp,.
 
 " Load plugins managed by pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
