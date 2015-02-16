@@ -145,3 +145,6 @@
 [submodule ".vim/bundle/vim-auto-commit"]
 	path = .vim/bundle/vim-auto-commit
 	url = https://github.com/tlvince/vim-auto-commit.git
+[submodule ".vim/bundle/vim-easy-align"]
+	path = .vim/bundle/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align.git
