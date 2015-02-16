@@ -1,6 +1,3 @@
-[submodule ".vim/bundle/securemodelines"]
-	path = .vim/bundle/securemodelines
-	url = https://github.com/ciaranm/securemodelines.git
 [submodule ".vim/bundle/tabular"]
 	path = .vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
