@@ -5,4 +5,5 @@ let g:vimwiki_list = [{
   \ 'ext': '.md'
 \ }]
 
+autocmd BufEnter ~/documents/wiki/* setlocal filetype=vimwiki
 autocmd BufWritePost ~/documents/wiki/* call AutoCommit()
