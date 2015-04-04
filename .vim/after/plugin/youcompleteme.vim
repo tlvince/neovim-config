@@ -1,3 +1,5 @@
+let g:ycm_collect_identifiers_from_tags_files = 1
+
 " Shim for UltiSnips tab completion
 " See: http://stackoverflow.com/a/18685821
 function! g:UltiSnips_Complete()
