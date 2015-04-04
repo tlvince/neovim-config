@@ -141,8 +141,6 @@ nmap <leader>q gqip
 " Toggle paste mode (particularly useful to temporarily disable autoindent)
 set pastetoggle=<F3>
 
-nmap <F8> :TagbarToggle<CR>
-
 " Disabled keys {{{2
 
 " Disable arrow keys (force good habits)
