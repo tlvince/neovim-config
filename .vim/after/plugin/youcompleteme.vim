@@ -1,6 +1,3 @@
-" Prevent collision with EasyMotion
-let g:ycm_key_detailed_diagnostics = ''
-
 " Shim for UltiSnips tab completion
 " See: http://stackoverflow.com/a/18685821
 function! g:UltiSnips_Complete()
