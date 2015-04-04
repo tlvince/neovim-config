@@ -28,9 +28,6 @@
 [submodule ".vim/bundle/matchem"]
 	path = .vim/bundle/matchem
 	url = https://github.com/ervandew/matchem.git
-[submodule ".vim/bundle/vim-gnupg"]
-	path = .vim/bundle/vim-gnupg
-	url = https://github.com/jamessan/vim-gnupg.git
 [submodule ".vim/bundle/vim-bad-whitespace"]
 	path = .vim/bundle/vim-bad-whitespace
 	url = https://github.com/bitc/vim-bad-whitespace.git
