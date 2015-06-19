@@ -1,12 +1,17 @@
+ycm = bundle/YouCompleteMe
+
 all: update helptags build-ycm
 
 update:
-	git submodule foreach git pull origin master
+	git submodule foreach \
+		# YCM often breaks if its submodules are at HEAD
+		'[ $$path != $(ycm) ] && git pull origin master || exit 0'
+	# Ensure YCM checks out the correct commit of its submodules
+	cd $(ycm) && git pull origin master
 	git commit --quiet --message "Updated bundles" bundle
 
 build-ycm:
-	cd bundle/YouCompleteMe; \
-	./install.sh
+	cd $(ycm) && ./install.sh
 
 helptags:
 	vim -c 'call pathogen#helptags()|q'
