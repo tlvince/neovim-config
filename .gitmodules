@@ -145,3 +145,6 @@
 [submodule ".vim/bundle/vim-obsession"]
 	path = .vim/bundle/vim-obsession
 	url = https://github.com/tpope/vim-obsession.git
+[submodule ".vim/bundle/vim-prosession"]
+	path = .vim/bundle/vim-prosession
+	url = https://github.com/dhruvasagar/vim-prosession.git
