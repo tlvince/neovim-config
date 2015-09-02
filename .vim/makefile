@@ -14,7 +14,7 @@ build-ycm:
 	cd $(ycm) && ./install.sh
 
 helptags:
-	vim -c 'call pathogen#helptags()|q'
+	vim -u NONE -c 'call pathogen#helptags()|q'
 
 bundle: _bundle helptags
 
