@@ -142,3 +142,6 @@
 [submodule ".vim/bundle/vim-sneak"]
 	path = .vim/bundle/vim-sneak
 	url = https://github.com/justinmk/vim-sneak.git
+[submodule ".vim/bundle/vim-obsession"]
+	path = .vim/bundle/vim-obsession
+	url = https://github.com/tpope/vim-obsession.git
