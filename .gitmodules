@@ -145,3 +145,6 @@
 [submodule ".vim/bundle/vim-prosession"]
 	path = .vim/bundle/vim-prosession
 	url = https://github.com/dhruvasagar/vim-prosession.git
+[submodule ".vim/bundle/vim-pandoc"]
+	path = .vim/bundle/vim-pandoc
+	url = https://github.com/vim-pandoc/vim-pandoc.git
