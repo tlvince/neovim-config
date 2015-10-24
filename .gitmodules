@@ -103,9 +103,6 @@
 [submodule ".nvim/bundle/vim-pandoc-syntax"]
 	path = .nvim/bundle/vim-pandoc-syntax
 	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
-[submodule ".nvim/bundle/vim-dispatch"]
-	path = .nvim/bundle/vim-dispatch
-	url = https://github.com/tpope/vim-dispatch.git
 [submodule ".nvim/bundle/angular-vim-snippets"]
 	path = .nvim/bundle/angular-vim-snippets
 	url = https://github.com/matthewsimo/angular-vim-snippets.git
