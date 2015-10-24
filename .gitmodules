@@ -71,8 +71,8 @@
 	path = .nvim/bundle/vim-addon-local-vimrc
 	url = https://github.com/MarcWeber/vim-addon-local-vimrc.git
 [submodule ".nvim/bundle/html5.vim"]
-	path = .nvim/bundle/html5.nvim
-	url = https://github.com/othree/html5.nvim.git
+	path = .nvim/bundle/html5.vim
+	url = https://github.com/othree/html5.vim.git
 [submodule ".nvim/bundle/vim-jsdoc"]
 	path = .nvim/bundle/vim-jsdoc
 	url = https://github.com/heavenshell/vim-jsdoc.git
@@ -86,8 +86,8 @@
 	path = .nvim/bundle/vim-startify
 	url = https://github.com/mhinz/vim-startify.git
 [submodule ".nvim/bundle/javascript-libraries-syntax.vim"]
-	path = .nvim/bundle/javascript-libraries-syntax.nvim
-	url = https://github.com/othree/javascript-libraries-syntax.nvim.git
+	path = .nvim/bundle/javascript-libraries-syntax.vim
+	url = https://github.com/othree/javascript-libraries-syntax.vim.git
 [submodule ".nvim/bundle/vim-abolish"]
 	path = .nvim/bundle/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
@@ -95,14 +95,11 @@
 	path = .nvim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
 [submodule ".nvim/bundle/ctrlp.vim"]
-	path = .nvim/bundle/ctrlp.nvim
-	url = https://github.com/kien/ctrlp.nvim.git
+	path = .nvim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
 [submodule ".nvim/bundle/goyo.vim"]
-	path = .nvim/bundle/goyo.nvim
-	url = https://github.com/junegunn/goyo.nvim.git
-[submodule ".nvim/bundle/ag.vim"]
-	path = .nvim/bundle/ag.nvim
-	url = https://github.com/rking/ag.nvim.git
+	path = .nvim/bundle/goyo.vim
+	url = https://github.com/junegunn/goyo.vim.git
 [submodule ".nvim/bundle/vim-pandoc-syntax"]
 	path = .nvim/bundle/vim-pandoc-syntax
 	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
@@ -145,3 +142,6 @@
 [submodule ".nvim/bundle/neomake"]
 	path = .nvim/bundle/neomake
 	url = https://github.com/benekastah/neomake.git
+[submodule ".nvim/bundle/ag.vim"]
+	path = .nvim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim.git
