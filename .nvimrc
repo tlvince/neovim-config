@@ -174,3 +174,5 @@ if has('autocmd')
   " Detect indentation settings for all files
   autocmd BufReadPost * :DetectIndent
 endif
+
+let g:deoplete#enable_at_startup = 1
