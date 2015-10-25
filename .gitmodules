@@ -136,12 +136,9 @@
 [submodule ".nvim/bundle/neomake"]
 	path = .nvim/bundle/neomake
 	url = https://github.com/benekastah/neomake.git
-[submodule ".nvim/bundle/ag.vim"]
-	path = .nvim/bundle/ag.vim
-	url = https://github.com/rking/ag.vim.git
 [submodule ".nvim/bundle/deoplete.nvim"]
 	path = .nvim/bundle/deoplete.nvim
 	url = https://github.com/Shougo/deoplete.nvim.git
-[submodule ".nvim/bundle/ctrlp.vim"]
-	path = .nvim/bundle/ctrlp.vim
-	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule ".nvim/bundle/fzf.vim"]
+	path = .nvim/bundle/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
