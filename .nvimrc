@@ -49,6 +49,7 @@ set noshowcmd
 set clipboard=unnamed
 set nomodeline
 set modelines=0
+set ttimeoutlen=0
 
 " Ignore the following globs in file completions
 set wildignore+=*.o,*.obj,*.pyc,*.so,*.swp,*.zip,*.jpg,*.gif,*.png,*.pdf
