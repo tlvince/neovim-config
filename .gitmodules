@@ -142,3 +142,6 @@
 [submodule ".nvim/bundle/fzf.vim"]
 	path = .nvim/bundle/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule ".nvim/bundle/vim-jsx"]
+	path = .nvim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
