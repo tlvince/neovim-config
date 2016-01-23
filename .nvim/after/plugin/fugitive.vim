@@ -11,7 +11,7 @@ nnoremap <silent> <leader>gg :Ggrep --ignore-case<Space>
 nnoremap <silent> <leader>gm :Gmove<Space>
 nnoremap <silent> <leader>gb :Git branch<Space>
 nnoremap <silent> <leader>go :Git checkout<Space>
-nnoremap <silent> <leader>gpu :Dispatch! git push<CR>
-nnoremap <silent> <leader>gpd :Dispatch! git pull<CR>
+nnoremap <silent> <leader>gpu :Git push<CR>
+nnoremap <silent> <leader>gpd :Git pull<CR>
 map <silent> <leader>gbd :Gbrowse origin/develop^{}:%<CR>
 set diffopt+=vertical
