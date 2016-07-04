@@ -148,3 +148,6 @@
 [submodule ".nvim/bundle/vim-haml"]
 	path = .nvim/bundle/vim-haml
 	url = https://github.com/tpope/vim-haml.git
+[submodule ".nvim/bundle/vim-rhubarb"]
+	path = .nvim/bundle/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
