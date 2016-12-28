@@ -183,7 +183,8 @@ let g:vimwiki_list = [{
   \ 'path': '~/Documents/wiki/',
   \ 'syntax': 'markdown',
   \ 'index': 'home',
-  \ 'ext': '.md'
+  \ 'ext': '.md',
+  \ 'auto_tags': 1
 \ }]
 
 autocmd BufWritePost ~/Documents/wiki/* call AutoCommit()
