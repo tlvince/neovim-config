@@ -178,3 +178,12 @@ if has('autocmd')
 endif
 
 let g:deoplete#enable_at_startup = 1
+
+let g:vimwiki_list = [{
+  \ 'path': '~/Documents/wiki/',
+  \ 'syntax': 'markdown',
+  \ 'index': 'home',
+  \ 'ext': '.md'
+\ }]
+
+autocmd BufWritePost ~/Documents/wiki/* call AutoCommit()
