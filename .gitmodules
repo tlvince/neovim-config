@@ -49,9 +49,6 @@
 [submodule ".nvim/bundle/vim-unimpaired"]
 	path = .nvim/bundle/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule ".nvim/bundle/vim-sensible"]
-	path = .nvim/bundle/vim-sensible
-	url = https://github.com/tpope/vim-sensible.git
 [submodule ".nvim/bundle/vim-pathogen"]
 	path = .nvim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
