@@ -55,9 +55,6 @@ set ttimeoutlen=0
 set wildignore+=*.o,*.obj,*.pyc,*.so,*.swp,*.zip,*.jpg,*.gif,*.png,*.pdf
 set wildignore+=.git,.hg,.svn,DS_STORE,bower_components,node_modules
 
-" Load man pages in a window (:help find-manpage)
-runtime ftplugin/man.vim
-
 " Visuals {{{1
 
 set background=dark
