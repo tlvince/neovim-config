@@ -1,13 +1,8 @@
-ycm = bundle/YouCompleteMe
-
-all: update helptags build-ycm
+all: update helptags
 
 update:
 	git submodule foreach git pull origin master
 	git commit --quiet --message "Updated bundles" bundle
-
-build-ycm:
-	cd $(ycm) && ./install.sh
 
 helptags:
 	vim -c 'call pathogen#helptags()|q'
@@ -24,4 +19,4 @@ _bundle:
 		echo "usage: make bundle url=..."; \
 	fi
 
-.PHONY: all update helptags bundle build-ycm
+.PHONY: all update helptags bundle
