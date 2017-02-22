@@ -5,7 +5,7 @@ update:
 	git commit --quiet --message "Updated bundles" bundle
 
 helptags:
-	vim -c 'call pathogen#helptags()|q'
+	nvim -c 'call pathogen#helptags()|q'
 
 bundle: _bundle helptags
 
