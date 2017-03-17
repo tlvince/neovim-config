@@ -58,6 +58,7 @@ set wildignore+=.git,.hg,.svn,DS_STORE,bower_components,node_modules
 " Visuals {{{1
 
 set background=dark
+let base16colorspace=256
 colorscheme base16-eighties
 
 " Mappings {{{1
