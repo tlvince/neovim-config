@@ -177,11 +177,12 @@ endif
 let g:deoplete#enable_at_startup = 1
 
 let g:vimwiki_list = [{
-  \ 'path': '~/Documents/wiki/',
+  \ 'path': '~/docs/wiki/',
   \ 'syntax': 'markdown',
   \ 'index': 'home',
   \ 'ext': '.md',
   \ 'auto_tags': 1
 \ }]
 
-autocmd BufWritePost ~/Documents/wiki/* call AutoCommit()
+autocmd BufEnter ~/docs/wiki/* setlocal filetype=vimwiki
+autocmd BufWritePost ~/docs/wiki/* call AutoCommit()
