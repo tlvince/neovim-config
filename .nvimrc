@@ -18,7 +18,7 @@ set directory=~/.nvim/tmp,.
 " Load plugins managed by pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
-set rtp+=/usr/local/opt/fzf
+set rtp+=/usr/share/vim/vimfiles
 
 " General preferences {{{1
 "
