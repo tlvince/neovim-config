@@ -50,6 +50,7 @@ set clipboard=unnamed
 set nomodeline
 set modelines=0
 set ttimeoutlen=0
+set guicursor=          " Fallback to terminal's choice
 
 " Ignore the following globs in file completions
 set wildignore+=*.o,*.obj,*.pyc,*.so,*.swp,*.zip,*.jpg,*.gif,*.png,*.pdf
@@ -185,5 +186,4 @@ let g:vimwiki_list = [{
   \ 'auto_tags': 1
 \ }]
 
-autocmd BufEnter ~/docs/wiki/* setlocal filetype=vimwiki
 autocmd BufWritePost ~/docs/wiki/* call AutoCommit()
