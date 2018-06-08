@@ -13,5 +13,4 @@ nnoremap <silent> <leader>gb :Git branch<Space>
 nnoremap <silent> <leader>go :Git checkout<Space>
 nnoremap <silent> <leader>gpu :Git push<CR>
 nnoremap <silent> <leader>gpd :Git pull<CR>
-map <silent> <leader>gbd :Gbrowse origin/develop^{}:%<CR>
 set diffopt+=vertical
