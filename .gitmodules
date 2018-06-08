@@ -148,3 +148,9 @@
 [submodule ".nvim/bundle/vim-rhubarb"]
 	path = .nvim/bundle/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
+[submodule ".nvim/bundle/nvim-typescript"]
+	path = .nvim/bundle/nvim-typescript
+	url = https://github.com/mhartington/nvim-typescript.git
+[submodule ".nvim/bundle/yats.vim"]
+	path = .nvim/bundle/yats.vim
+	url = https://github.com/HerringtonDarkholme/yats.vim.git
