@@ -154,3 +154,6 @@
 [submodule ".nvim/bundle/yats.vim"]
 	path = .nvim/bundle/yats.vim
 	url = https://github.com/HerringtonDarkholme/yats.vim.git
+[submodule ".nvim/bundle/LanguageClient-neovim"]
+	path = .nvim/bundle/LanguageClient-neovim
+	url = https://github.com/autozimu/LanguageClient-neovim.git
