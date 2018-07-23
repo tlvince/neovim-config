@@ -1,18 +1,12 @@
 [submodule ".nvim/bundle/vim-fugitive"]
 	path = .nvim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule ".nvim/bundle/vim-coffee-script"]
-	path = .nvim/bundle/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule ".nvim/bundle/vim-less"]
 	path = .nvim/bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
 [submodule ".nvim/bundle/vim-stylus"]
 	path = .nvim/bundle/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
-[submodule ".nvim/bundle/vim-jade"]
-	path = .nvim/bundle/vim-jade
-	url = https://github.com/digitaltoad/vim-jade.git
 [submodule ".nvim/bundle/vim-commentary"]
 	path = .nvim/bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
@@ -97,9 +91,6 @@
 [submodule ".nvim/bundle/vim-pandoc-syntax"]
 	path = .nvim/bundle/vim-pandoc-syntax
 	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
-[submodule ".nvim/bundle/angular-vim-snippets"]
-	path = .nvim/bundle/angular-vim-snippets
-	url = https://github.com/matthewsimo/angular-vim-snippets.git
 [submodule ".nvim/bundle/vim-snippets-tlvince"]
 	path = .nvim/bundle/vim-snippets-tlvince
 	url = https://github.com/tlvince/vim-snippets-tlvince.git
@@ -109,9 +100,6 @@
 [submodule ".nvim/bundle/vim-javascript"]
 	path = .nvim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule ".nvim/bundle/vim-angular"]
-	path = .nvim/bundle/vim-angular
-	url = https://github.com/burnettk/vim-angular.git
 [submodule ".nvim/bundle/vim-auto-commit"]
 	path = .nvim/bundle/vim-auto-commit
 	url = https://github.com/tlvince/vim-auto-commit.git
@@ -142,18 +130,9 @@
 [submodule ".nvim/bundle/vim-jsx"]
 	path = .nvim/bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
-[submodule ".nvim/bundle/vim-haml"]
-	path = .nvim/bundle/vim-haml
-	url = https://github.com/tpope/vim-haml.git
 [submodule ".nvim/bundle/vim-rhubarb"]
 	path = .nvim/bundle/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
-[submodule ".nvim/bundle/nvim-typescript"]
-	path = .nvim/bundle/nvim-typescript
-	url = https://github.com/mhartington/nvim-typescript.git
-[submodule ".nvim/bundle/yats.vim"]
-	path = .nvim/bundle/yats.vim
-	url = https://github.com/HerringtonDarkholme/yats.vim.git
 [submodule ".nvim/bundle/LanguageClient-neovim"]
 	path = .nvim/bundle/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim.git
