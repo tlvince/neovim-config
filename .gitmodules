@@ -136,6 +136,3 @@
 [submodule ".nvim/bundle/LanguageClient-neovim"]
 	path = .nvim/bundle/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim.git
-[submodule ".nvim/bundle/nerdtree"]
-	path = .nvim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
