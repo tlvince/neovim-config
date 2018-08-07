@@ -136,3 +136,6 @@
 [submodule ".nvim/bundle/LanguageClient-neovim"]
 	path = .nvim/bundle/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim.git
+[submodule ".nvim/bundle/vim-terraform"]
+	path = .nvim/bundle/vim-terraform
+	url = git@github.com:hashivim/vim-terraform.git
