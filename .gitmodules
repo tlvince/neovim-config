@@ -139,3 +139,6 @@
 [submodule ".nvim/bundle/vim-terraform"]
 	path = .nvim/bundle/vim-terraform
 	url = git@github.com:hashivim/vim-terraform.git
+[submodule ".nvim/bundle/vim-velocity"]
+	path = .nvim/bundle/vim-velocity
+	url = git@github.com:lepture/vim-velocity.git
