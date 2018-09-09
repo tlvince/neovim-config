@@ -118,9 +118,6 @@
 [submodule ".nvim/bundle/vim-pandoc"]
 	path = .nvim/bundle/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
-[submodule ".nvim/bundle/neomake"]
-	path = .nvim/bundle/neomake
-	url = https://github.com/benekastah/neomake.git
 [submodule ".nvim/bundle/deoplete.nvim"]
 	path = .nvim/bundle/deoplete.nvim
 	url = https://github.com/Shougo/deoplete.nvim.git
@@ -142,3 +139,6 @@
 [submodule ".nvim/bundle/vim-velocity"]
 	path = .nvim/bundle/vim-velocity
 	url = git@github.com:lepture/vim-velocity.git
+[submodule ".nvim/bundle/ale"]
+	path = .nvim/bundle/ale
+	url = https://github.com/w0rp/ale.git
