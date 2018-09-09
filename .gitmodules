@@ -19,9 +19,6 @@
 [submodule ".nvim/bundle/matchem"]
 	path = .nvim/bundle/matchem
 	url = https://github.com/ervandew/matchem.git
-[submodule ".nvim/bundle/vim-bad-whitespace"]
-	path = .nvim/bundle/vim-bad-whitespace
-	url = https://github.com/bitc/vim-bad-whitespace.git
 [submodule ".nvim/bundle/vimwiki"]
 	path = .nvim/bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
