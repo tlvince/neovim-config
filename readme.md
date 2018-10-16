@@ -1,20 +1,12 @@
-# Vim Configuration
+# Neovim Configuration
 
-Optimised for web development.
+Optimised for NodeJS, serverless and React
 
 ## Usage
 
-1. Clone the repository
-
 ```bash
-git clone --recursive https://github.com/tlvince/vim-config.git $HOME/.vim
-```
-
-2. Compile YouCompleteMe
-
-```bash
-cd $HOME/.vim
-make build-ycm
+git clone --recursive https://github.com/tlvince/neovim-config.git $HOME/dotfiles/neovim-config
+ln -s "$HOME/dotfiles/neovim-config/.nvim" "$XDG_CONFIG_HOME/nvim"
 ```
 
 ## Thanks
@@ -31,7 +23,7 @@ make build-ycm
 
 ## Author
 
-© 2013 Tom Vincent <http://tlvince.com/contact>
+© 2013-2018 Tom Vincent <http://tlvince.com/contact>
 
 ## License
 
