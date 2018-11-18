@@ -1,6 +1,6 @@
-.vim/session
+session
 shada
-.nvim/spell/en.utf-8.spl
-.nvim/spell/en.utf-8.sug
-.nvim/tmp
-.nvim/.netrwhist
+spell/en.utf-8.spl
+spell/en.utf-8.sug
+tmp
+.netrwhist
