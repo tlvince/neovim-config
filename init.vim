@@ -11,9 +11,9 @@ set nocompatible
 " Manually load vim-sensible so we can override its settings later
 runtime bundle/vim-sensible/plugin/sensible.vim
 
-set spellfile="$HOME/.nvim/spell/en.utf-8.add"
-set backupdir=~/.nvim/tmp,.
-set directory=~/.nvim/tmp,.
+set spellfile="$XDG_CONFIG_HOME/nvim/spell/en.utf-8.add"
+set backupdir=$XDG_CONFIG_HOME/nvim/tmp,.
+set directory=$XDG_CONFIG_HOME/nvim/tmp,.
 
 " Load plugins managed by pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim

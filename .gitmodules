@@ -1,141 +1,141 @@
-[submodule ".nvim/bundle/vim-fugitive"]
-	path = .nvim/bundle/vim-fugitive
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule ".nvim/bundle/vim-less"]
-	path = .nvim/bundle/vim-less
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
-[submodule ".nvim/bundle/vim-stylus"]
-	path = .nvim/bundle/vim-stylus
+[submodule "bundle/vim-stylus"]
+	path = bundle/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
-[submodule ".nvim/bundle/vim-commentary"]
-	path = .nvim/bundle/vim-commentary
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule ".nvim/bundle/detectindent"]
-	path = .nvim/bundle/detectindent
+[submodule "bundle/detectindent"]
+	path = bundle/detectindent
 	url = https://github.com/ciaranm/detectindent.git
-[submodule ".nvim/bundle/vim-eunuch"]
-	path = .nvim/bundle/vim-eunuch
+[submodule "bundle/vim-eunuch"]
+	path = bundle/vim-eunuch
 	url = https://github.com/tpope/vim-eunuch.git
-[submodule ".nvim/bundle/matchem"]
-	path = .nvim/bundle/matchem
+[submodule "bundle/matchem"]
+	path = bundle/matchem
 	url = https://github.com/ervandew/matchem.git
-[submodule ".nvim/bundle/vimwiki"]
-	path = .nvim/bundle/vimwiki
+[submodule "bundle/vimwiki"]
+	path = bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
-[submodule ".nvim/bundle/ZoomWin"]
-	path = .nvim/bundle/ZoomWin
+[submodule "bundle/ZoomWin"]
+	path = bundle/ZoomWin
 	url = https://github.com/tlvince/ZoomWin.git
-[submodule ".nvim/bundle/vim-repeat"]
-	path = .nvim/bundle/vim-repeat
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
-[submodule ".nvim/bundle/ultisnips"]
-	path = .nvim/bundle/ultisnips
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
-[submodule ".nvim/bundle/vim-scratch"]
-	path = .nvim/bundle/vim-scratch
+[submodule "bundle/vim-scratch"]
+	path = bundle/vim-scratch
 	url = https://github.com/molok/vim-scratch.git
-[submodule ".nvim/bundle/vim-gitgutter"]
-	path = .nvim/bundle/vim-gitgutter
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
-[submodule ".nvim/bundle/vim-unimpaired"]
-	path = .nvim/bundle/vim-unimpaired
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule ".nvim/bundle/vim-pathogen"]
-	path = .nvim/bundle/vim-pathogen
+[submodule "bundle/vim-pathogen"]
+	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
-[submodule ".nvim/bundle/vim-restore-cursor"]
-	path = .nvim/bundle/vim-restore-cursor
+[submodule "bundle/vim-restore-cursor"]
+	path = bundle/vim-restore-cursor
 	url = https://github.com/pbrisbin/vim-restore-cursor.git
-[submodule ".nvim/bundle/vim-mkdir"]
-	path = .nvim/bundle/vim-mkdir
+[submodule "bundle/vim-mkdir"]
+	path = bundle/vim-mkdir
 	url = https://github.com/pbrisbin/vim-mkdir.git
-[submodule ".nvim/bundle/sparkup"]
-	path = .nvim/bundle/sparkup
+[submodule "bundle/sparkup"]
+	path = bundle/sparkup
 	url = https://github.com/rstacruz/sparkup.git
-[submodule ".nvim/bundle/editorconfig-vim"]
-	path = .nvim/bundle/editorconfig-vim
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
-[submodule ".nvim/bundle/vim-addon-local-vimrc"]
-	path = .nvim/bundle/vim-addon-local-vimrc
+[submodule "bundle/vim-addon-local-vimrc"]
+	path = bundle/vim-addon-local-vimrc
 	url = https://github.com/MarcWeber/vim-addon-local-vimrc.git
-[submodule ".nvim/bundle/html5.vim"]
-	path = .nvim/bundle/html5.vim
+[submodule "bundle/html5.vim"]
+	path = bundle/html5.vim
 	url = https://github.com/othree/html5.vim.git
-[submodule ".nvim/bundle/vim-jsdoc"]
-	path = .nvim/bundle/vim-jsdoc
+[submodule "bundle/vim-jsdoc"]
+	path = bundle/vim-jsdoc
 	url = https://github.com/heavenshell/vim-jsdoc.git
-[submodule ".nvim/bundle/vim-json"]
-	path = .nvim/bundle/vim-json
+[submodule "bundle/vim-json"]
+	path = bundle/vim-json
 	url = https://github.com/elzr/vim-json.git
-[submodule ".nvim/bundle/base16-vim"]
-	path = .nvim/bundle/base16-vim
+[submodule "bundle/base16-vim"]
+	path = bundle/base16-vim
 	url = https://github.com/chriskempson/base16-vim.git
-[submodule ".nvim/bundle/vim-startify"]
-	path = .nvim/bundle/vim-startify
+[submodule "bundle/vim-startify"]
+	path = bundle/vim-startify
 	url = https://github.com/mhinz/vim-startify.git
-[submodule ".nvim/bundle/javascript-libraries-syntax.vim"]
-	path = .nvim/bundle/javascript-libraries-syntax.vim
+[submodule "bundle/javascript-libraries-syntax.vim"]
+	path = bundle/javascript-libraries-syntax.vim
 	url = https://github.com/othree/javascript-libraries-syntax.vim.git
-[submodule ".nvim/bundle/vim-abolish"]
-	path = .nvim/bundle/vim-abolish
+[submodule "bundle/vim-abolish"]
+	path = bundle/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
-[submodule ".nvim/bundle/vim-surround"]
-	path = .nvim/bundle/vim-surround
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule ".nvim/bundle/goyo.vim"]
-	path = .nvim/bundle/goyo.vim
+[submodule "bundle/goyo.vim"]
+	path = bundle/goyo.vim
 	url = https://github.com/junegunn/goyo.vim.git
-[submodule ".nvim/bundle/vim-pandoc-syntax"]
-	path = .nvim/bundle/vim-pandoc-syntax
+[submodule "bundle/vim-pandoc-syntax"]
+	path = bundle/vim-pandoc-syntax
 	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
-[submodule ".nvim/bundle/vim-snippets-tlvince"]
-	path = .nvim/bundle/vim-snippets-tlvince
+[submodule "bundle/vim-snippets-tlvince"]
+	path = bundle/vim-snippets-tlvince
 	url = https://github.com/tlvince/vim-snippets-tlvince.git
-[submodule ".nvim/bundle/vim-snippets"]
-	path = .nvim/bundle/vim-snippets
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
-[submodule ".nvim/bundle/vim-javascript"]
-	path = .nvim/bundle/vim-javascript
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule ".nvim/bundle/vim-auto-commit"]
-	path = .nvim/bundle/vim-auto-commit
+[submodule "bundle/vim-auto-commit"]
+	path = bundle/vim-auto-commit
 	url = https://github.com/tlvince/vim-auto-commit.git
-[submodule ".nvim/bundle/vim-easy-align"]
-	path = .nvim/bundle/vim-easy-align
+[submodule "bundle/vim-easy-align"]
+	path = bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
-[submodule ".nvim/bundle/vim-sneak"]
-	path = .nvim/bundle/vim-sneak
+[submodule "bundle/vim-sneak"]
+	path = bundle/vim-sneak
 	url = https://github.com/justinmk/vim-sneak.git
-[submodule ".nvim/bundle/vim-obsession"]
-	path = .nvim/bundle/vim-obsession
+[submodule "bundle/vim-obsession"]
+	path = bundle/vim-obsession
 	url = https://github.com/tpope/vim-obsession.git
-[submodule ".nvim/bundle/vim-prosession"]
-	path = .nvim/bundle/vim-prosession
+[submodule "bundle/vim-prosession"]
+	path = bundle/vim-prosession
 	url = https://github.com/dhruvasagar/vim-prosession.git
-[submodule ".nvim/bundle/vim-pandoc"]
-	path = .nvim/bundle/vim-pandoc
+[submodule "bundle/vim-pandoc"]
+	path = bundle/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
-[submodule ".nvim/bundle/deoplete.nvim"]
-	path = .nvim/bundle/deoplete.nvim
+[submodule "bundle/deoplete.nvim"]
+	path = bundle/deoplete.nvim
 	url = https://github.com/Shougo/deoplete.nvim.git
-[submodule ".nvim/bundle/fzf.vim"]
-	path = .nvim/bundle/fzf.vim
+[submodule "bundle/fzf.vim"]
+	path = bundle/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
-[submodule ".nvim/bundle/vim-jsx"]
-	path = .nvim/bundle/vim-jsx
+[submodule "bundle/vim-jsx"]
+	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
-[submodule ".nvim/bundle/vim-rhubarb"]
-	path = .nvim/bundle/vim-rhubarb
+[submodule "bundle/vim-rhubarb"]
+	path = bundle/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
-[submodule ".nvim/bundle/LanguageClient-neovim"]
-	path = .nvim/bundle/LanguageClient-neovim
+[submodule "bundle/LanguageClient-neovim"]
+	path = bundle/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim.git
-[submodule ".nvim/bundle/vim-terraform"]
-	path = .nvim/bundle/vim-terraform
+[submodule "bundle/vim-terraform"]
+	path = bundle/vim-terraform
 	url = git@github.com:hashivim/vim-terraform.git
-[submodule ".nvim/bundle/vim-velocity"]
-	path = .nvim/bundle/vim-velocity
+[submodule "bundle/vim-velocity"]
+	path = bundle/vim-velocity
 	url = git@github.com:lepture/vim-velocity.git
-[submodule ".nvim/bundle/ale"]
-	path = .nvim/bundle/ale
+[submodule "bundle/ale"]
+	path = bundle/ale
 	url = https://github.com/w0rp/ale.git
