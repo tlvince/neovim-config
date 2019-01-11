@@ -5,7 +5,7 @@ update:
 	mv bundle/LanguageClient-neovim{,~}
 	git submodule foreach git pull origin master
 	mv bundle/LanguageClient-neovim~ bundle/LanguageClient-neovim
-	git commit --quiet --message "Updated bundles" bundle
+	git commit --quiet --message "fix: updated bundles" bundle
 
 helptags:
 	nvim -c 'call pathogen#helptags()|q'
