@@ -139,3 +139,6 @@
 [submodule "bundle/ale"]
 	path = bundle/ale
 	url = https://github.com/w0rp/ale.git
+[submodule "bundle/vim-markdown-toc"]
+	path = bundle/vim-markdown-toc
+	url = https://github.com/mzlogin/vim-markdown-toc.git
