@@ -185,3 +185,9 @@ config
 nifi
 IAM
 anonymised
+Barclays
+ElasticSearch
+Kibana
+CloudWatch
+microservice
+frontend
