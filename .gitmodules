@@ -142,3 +142,6 @@
 [submodule "bundle/vim-markdown-toc"]
 	path = bundle/vim-markdown-toc
 	url = https://github.com/mzlogin/vim-markdown-toc.git
+[submodule "bundle/suda.vim"]
+	path = bundle/suda.vim
+	url = https://github.com/lambdalisue/suda.vim.git
