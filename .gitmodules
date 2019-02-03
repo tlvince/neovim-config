@@ -145,3 +145,6 @@
 [submodule "bundle/suda.vim"]
 	path = bundle/suda.vim
 	url = https://github.com/lambdalisue/suda.vim.git
+[submodule "bundle/vim-vinegar"]
+	path = bundle/vim-vinegar
+	url = https://github.com/tpope/vim-vinegar.git
