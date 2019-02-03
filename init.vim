@@ -85,11 +85,6 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-" Sudo to write
-if has ('unix')
-  cmap w!! SudoWrite<CR>
-endif
-
 " Leader keys {{{2
 
 " Map leader (the dedicated user-mapping prefix key) to comma
