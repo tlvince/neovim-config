@@ -200,3 +200,8 @@ cognito
 OpenID
 UUID
 GraphQL
+DynamoDB
+backend
+Redux
+Axios
+Middleware
