@@ -1,10 +1,7 @@
 all: update helptags
 
 update:
-	cd bundle/LanguageClient-neovim && git pull origin next && ./install.sh && cd -
-	mv bundle/LanguageClient-neovim{,~}
 	git submodule foreach git pull origin master
-	mv bundle/LanguageClient-neovim~ bundle/LanguageClient-neovim
 	git commit --quiet --message "fix: updated bundles" bundle
 
 helptags:

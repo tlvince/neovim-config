@@ -1,0 +1,8 @@
+{
+  "suggest.enablePreview": true,
+  "snippets.extends": {
+    "javascriptreact": ["javascript"],
+    "typescript": ["javascript"],
+    "typescriptreact": ["javascript"]
+  }
+}
