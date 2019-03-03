@@ -172,8 +172,6 @@ if has('autocmd')
   autocmd BufReadPost * :DetectIndent
 endif
 
-let g:deoplete#enable_at_startup = 1
-
 let g:vimwiki_list = [{
   \ 'path': '~/docs/wiki/',
   \ 'syntax': 'markdown',
