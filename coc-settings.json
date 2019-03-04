@@ -4,5 +4,7 @@
     "javascriptreact": ["javascript"],
     "typescript": ["javascript"],
     "typescriptreact": ["javascript"]
-  }
+  },
+  "eslint.autoFixOnSave": true,
+  "diagnostic.refreshOnInsertMode": true
 }

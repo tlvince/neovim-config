@@ -10,6 +10,14 @@ nmap <silent> gr <Plug>(coc-references)
 " Remap for rename current word
 nmap <leader>rn <Plug>(coc-rename)
 
+" Show documentation in preview window
 nmap K :call CocAction('doHover')<CR>
 
+" Expand snippers
 imap <C-l> <Plug>(coc-snippets-expand)
+
+" Show and navigate diagnostic info
+" (or hover over line for "updatetime", via CursorHold)
+nmap <silent> <Leader>d <Plug>(coc-diagnostic-info)
+nmap <silent> ]d <Plug>(coc-diagnostic-next)
+nmap <silent> [d <Plug>(coc-diagnostic-prev)

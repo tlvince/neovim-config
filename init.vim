@@ -52,6 +52,7 @@ set nomodeline
 set modelines=0
 set ttimeoutlen=0
 set guicursor=          " Fallback to terminal's choice
+set shortmess+=c        " don't give |ins-completion-menu| messages
 
 " Ignore the following globs in file completions
 set wildignore+=*.o,*.obj,*.pyc,*.so,*.swp,*.zip,*.jpg,*.gif,*.png,*.pdf
