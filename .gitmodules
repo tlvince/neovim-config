@@ -97,9 +97,6 @@
 [submodule "bundle/vim-auto-commit"]
 	path = bundle/vim-auto-commit
 	url = https://github.com/tlvince/vim-auto-commit.git
-[submodule "bundle/vim-easy-align"]
-	path = bundle/vim-easy-align
-	url = https://github.com/junegunn/vim-easy-align.git
 [submodule "bundle/vim-sneak"]
 	path = bundle/vim-sneak
 	url = https://github.com/justinmk/vim-sneak.git
