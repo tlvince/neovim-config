@@ -20,4 +20,7 @@ imap <C-l> <Plug>(coc-snippets-expand)
 " (or hover over line for "updatetime", via CursorHold)
 nmap <silent> <Leader>d <Plug>(coc-diagnostic-info)
 nmap <silent> ]d <Plug>(coc-diagnostic-next)
-nmap <silent> [d <Plug>(coc-diagnostic-prev)
+
+let g:coc_filetype_map = {
+  \ 'pandoc': 'markdown',
+  \ }
