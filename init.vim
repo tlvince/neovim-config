@@ -182,3 +182,4 @@ let g:vimwiki_list = [{
 \ }]
 
 autocmd BufWritePost ~/docs/wiki/* call AutoCommit()
+autocmd BufRead,BufEnter *.js setlocal matchpairs={:},[:]
