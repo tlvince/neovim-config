@@ -11,7 +11,7 @@
   "diagnostic.warningSign": "⚠",
   "diagnostic.infoSign": "𝐢",
   "diagnostic.hintSign": "•",
-  "diagnostic.signOffset": 3000,
+  "diagnostic.signOffset": 9000,
   "languageserver": {
     "bash": {
       "command": "bash-language-server",
