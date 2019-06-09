@@ -25,6 +25,9 @@
     "html",
     "json",
     "yaml",
-    "markdown"
-  ]
+    "markdown",
+    "typescript"
+  ],
+  "prettier.semi": false,
+  "prettier.singleQuote": true
 }
