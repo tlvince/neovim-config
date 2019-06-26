@@ -6,6 +6,12 @@
     "typescriptreact": ["javascript"]
   },
   "eslint.autoFixOnSave": true,
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "diagnostic.refreshOnInsertMode": true,
   "diagnostic.errorSign": "✖",
   "diagnostic.warningSign": "⚠",
@@ -26,8 +32,12 @@
     "json",
     "yaml",
     "markdown",
-    "typescript"
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
   ],
   "prettier.semi": false,
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5"
 }
