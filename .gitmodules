@@ -139,3 +139,6 @@
 [submodule "bundle/vim-jsx-typescript"]
 	path = bundle/vim-jsx-typescript
 	url = https://github.com/peitalin/vim-jsx-typescript.git
+[submodule "bundle/yats.vim"]
+	path = bundle/yats.vim
+	url = https://github.com/HerringtonDarkholme/yats.vim.git
