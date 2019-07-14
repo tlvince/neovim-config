@@ -28,9 +28,6 @@
 [submodule "bundle/vim-scratch"]
 	path = bundle/vim-scratch
 	url = https://github.com/molok/vim-scratch.git
-[submodule "bundle/vim-gitgutter"]
-	path = bundle/vim-gitgutter
-	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "bundle/vim-unimpaired"]
 	path = bundle/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
