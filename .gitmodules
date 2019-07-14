@@ -61,9 +61,6 @@
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = https://github.com/elzr/vim-json.git
-[submodule "bundle/base16-vim"]
-	path = bundle/base16-vim
-	url = https://github.com/chriskempson/base16-vim.git
 [submodule "bundle/vim-startify"]
 	path = bundle/vim-startify
 	url = https://github.com/mhinz/vim-startify.git
