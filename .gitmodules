@@ -136,6 +136,6 @@
 [submodule "bundle/yats.vim"]
 	path = bundle/yats.vim
 	url = https://github.com/HerringtonDarkholme/yats.vim.git
-[submodule "bundle/gruvbox"]
-	path = bundle/gruvbox
-	url = https://github.com/morhetz/gruvbox.git
+[submodule "bundle/vim-one"]
+	path = bundle/vim-one
+	url = https://github.com/rakr/vim-one.git

@@ -60,11 +60,24 @@ set wildignore+=.git,.hg,.svn,DS_STORE,bower_components,node_modules
 
 " Visuals {{{1
 
-set background=dark
+colorscheme one
 set termguicolors
-let g:gruvbox_italic=1
-colorscheme gruvbox
-highlight! link SignColumn Background
+set background=dark
+let g:one_allow_italics = 1
+
+augroup vim_one_customisations
+  autocmd!
+  autocmd ColorScheme one
+    \ highlight DiffAdd guibg=Normal |
+    \ highlight DiffChange guibg=Normal |
+    \ highlight DiffDelete guibg=Normal |
+    \ highlight DiffText guibg=Normal |
+    \ highlight DiffAdded guibg=Normal |
+    \ highlight DiffFile guibg=Normal |
+    \ highlight DiffNewFile guibg=Normal |
+    \ highlight DiffLine guibg=Normal |
+    \ highlight DiffRemoved guibg=Normal
+augroup END
 
 " Mappings {{{1
 "
