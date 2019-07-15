@@ -76,7 +76,8 @@ augroup vim_one_customisations
     \ highlight DiffFile guibg=Normal |
     \ highlight DiffNewFile guibg=Normal |
     \ highlight DiffLine guibg=Normal |
-    \ highlight DiffRemoved guibg=Normal
+    \ highlight DiffRemoved guibg=Normal |
+    \ highlight! link Folded Normal
 augroup END
 
 " Mappings {{{1
