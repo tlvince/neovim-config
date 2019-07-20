@@ -70,9 +70,6 @@
 [submodule "bundle/vim-snippets"]
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
-[submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
 [submodule "bundle/vim-auto-commit"]
 	path = bundle/vim-auto-commit
 	url = https://github.com/tlvince/vim-auto-commit.git
