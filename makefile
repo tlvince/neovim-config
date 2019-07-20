@@ -3,6 +3,7 @@ all: update helptags
 update:
 	git submodule foreach git pull origin master
 	git commit --quiet --message "fix: updated bundles" bundle
+	cd bundle/coc.nvim && yarn && cd -
 
 helptags:
 	nvim -c 'call pathogen#helptags()|q'
