@@ -142,9 +142,6 @@ nmap <leader>p :read !pwgen -sy1 32<CR>
 " Toggle highlighting of current line and column
 nnoremap <leader>c :setlocal cursorline! cursorcolumn!<CR>
 
-" Toggle background
-map <leader>b :let &background = ( &background == "dark"? "light" : "dark" )<CR>
-
 " Toggle spelling and show it's status
 nmap <silent><leader>s :setlocal spell! spell?<CR>
 
