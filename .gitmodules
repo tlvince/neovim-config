@@ -76,12 +76,6 @@
 [submodule "bundle/vim-sneak"]
 	path = bundle/vim-sneak
 	url = https://github.com/justinmk/vim-sneak.git
-[submodule "bundle/vim-obsession"]
-	path = bundle/vim-obsession
-	url = https://github.com/tpope/vim-obsession.git
-[submodule "bundle/vim-prosession"]
-	path = bundle/vim-prosession
-	url = https://github.com/dhruvasagar/vim-prosession.git
 [submodule "bundle/vim-pandoc"]
 	path = bundle/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
