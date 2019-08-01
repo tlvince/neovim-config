@@ -23,7 +23,7 @@ ln -s "$HOME/dotfiles/neovim-config/.nvim" "$XDG_CONFIG_HOME/nvim"
 
 ## Author
 
-© 2013-2018 Tom Vincent <http://tlvince.com/contact>
+© 2013-2019 Tom Vincent <http://tlvince.com/contact>
 
 ## License
 
