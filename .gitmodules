@@ -102,7 +102,7 @@
 	url = https://github.com/neoclide/coc.nvim.git
 [submodule "bundle/ale"]
 	path = bundle/ale
-	url = https://github.com/w0rp/ale.git
+	url = https://github.com/dense-analysis/ale.git
 [submodule "bundle/vim-one"]
 	path = bundle/vim-one
 	url = https://github.com/rakr/vim-one.git
