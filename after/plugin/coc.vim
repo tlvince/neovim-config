@@ -28,3 +28,9 @@ nmap <silent> ]d <Plug>(coc-diagnostic-next)
 let g:coc_filetype_map = {
   \ 'pandoc': 'markdown',
   \ }
+
+" Setup formatexpr for the specified filetype(s)
+autocmd FileType json,javascript,typescript setlocal formatexpr=CocAction('formatSelected')
+
+" Update signature help on jump placeholder
+autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
