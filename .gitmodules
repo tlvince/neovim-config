@@ -37,9 +37,6 @@
 [submodule "bundle/vim-mkdir"]
 	path = bundle/vim-mkdir
 	url = https://github.com/pbrisbin/vim-mkdir.git
-[submodule "bundle/sparkup"]
-	path = bundle/sparkup
-	url = https://github.com/rstacruz/sparkup.git
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
