@@ -186,13 +186,5 @@ if has('autocmd')
   autocmd BufReadPost * :DetectIndent
 endif
 
-let g:vimwiki_list = [{
-  \ 'path': '~/docs/wiki/',
-  \ 'syntax': 'markdown',
-  \ 'index': 'home',
-  \ 'ext': '.md',
-  \ 'auto_tags': 1
-\ }]
-
 autocmd BufWritePost ~/docs/wiki/* call AutoCommit()
 autocmd BufRead,BufEnter *.js setlocal matchpairs={:},[:]
