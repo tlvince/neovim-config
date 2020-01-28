@@ -13,9 +13,6 @@
 [submodule "bundle/vim-eunuch"]
 	path = bundle/vim-eunuch
 	url = https://github.com/tpope/vim-eunuch.git
-[submodule "bundle/vimwiki"]
-	path = bundle/vimwiki
-	url = https://github.com/vimwiki/vimwiki.git
 [submodule "bundle/ZoomWin"]
 	path = bundle/ZoomWin
 	url = https://github.com/tlvince/ZoomWin.git
@@ -106,3 +103,6 @@
 [submodule "bundle/vim-polyglot"]
 	path = bundle/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "bundle/vim-waikiki"]
+	path = bundle/vim-waikiki
+	url = https://github.com/fcpg/vim-waikiki.git
