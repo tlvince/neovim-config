@@ -1,1 +1,1 @@
-let g:pandoc#formatting#mode = 'hA'
+let g:pandoc#formatting#mode = 'h'
