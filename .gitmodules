@@ -106,3 +106,6 @@
 [submodule "bundle/zoomwintab.vim"]
 	path = bundle/zoomwintab.vim
 	url = https://github.com/troydm/zoomwintab.vim
+[submodule "bundle/bullets.vim"]
+	path = bundle/bullets.vim
+	url = https://github.com/dkarter/bullets.vim.git
