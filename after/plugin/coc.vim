@@ -16,6 +16,7 @@ nmap <leader>rn <Plug>(coc-rename)
 
 " Show documentation in preview window
 nmap K :call CocAction('doHover')<CR>
+nmap <leader>k :call CocAction('showSignatureHelp')<CR>
 
 " Expand snippers
 imap <C-l> <Plug>(coc-snippets-expand)
