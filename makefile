@@ -1,14 +1,11 @@
-all: update helptags
+all: update
 
 update:
 	git submodule foreach git pull origin master
 	git commit --quiet --message "fix: updated bundles" bundle
 	cd bundle/coc.nvim && yarn && cd -
 
-helptags:
-	nvim -c 'call pathogen#helptags()|q'
-
-bundle: _bundle helptags
+bundle: _bundle
 
 _bundle:
 	@basename="$(notdir $(basename $(url)))"; \
@@ -20,4 +17,4 @@ _bundle:
 		echo "usage: make bundle url=..."; \
 	fi
 
-.PHONY: all update helptags bundle
+.PHONY: all update bundle

@@ -15,9 +15,8 @@ set spellfile=$XDG_CONFIG_HOME/nvim/spell/en.utf-8.add
 set backupdir=$XDG_CONFIG_HOME/nvim/tmp,.
 set directory=$XDG_CONFIG_HOME/nvim/tmp,.
 
-" Load plugins managed by pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect()
+" Load plugins
+packloadall
 set rtp+=/usr/share/vim/vimfiles
 set rtp+=/usr/local/opt/fzf
 

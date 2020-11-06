@@ -1,108 +1,105 @@
 [submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
+	path = pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-stylus"]
-	path = bundle/vim-stylus
+	path = pack/plugins/start/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
 [submodule "bundle/vim-commentary"]
-	path = bundle/vim-commentary
+	path = pack/plugins/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
 [submodule "bundle/detectindent"]
-	path = bundle/detectindent
+	path = pack/plugins/start/detectindent
 	url = https://github.com/ciaranm/detectindent.git
 [submodule "bundle/vim-eunuch"]
-	path = bundle/vim-eunuch
+	path = pack/plugins/start/vim-eunuch
 	url = https://github.com/tpope/vim-eunuch.git
 [submodule "bundle/vim-repeat"]
-	path = bundle/vim-repeat
+	path = pack/plugins/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/vim-scratch"]
-	path = bundle/vim-scratch
+	path = pack/plugins/start/vim-scratch
 	url = https://github.com/molok/vim-scratch.git
 [submodule "bundle/vim-unimpaired"]
-	path = bundle/vim-unimpaired
+	path = pack/plugins/start/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule "bundle/vim-pathogen"]
-	path = bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
 [submodule "bundle/vim-restore-cursor"]
-	path = bundle/vim-restore-cursor
+	path = pack/plugins/start/vim-restore-cursor
 	url = https://github.com/pbrisbin/vim-restore-cursor.git
 [submodule "bundle/vim-mkdir"]
-	path = bundle/vim-mkdir
+	path = pack/plugins/start/vim-mkdir
 	url = https://github.com/pbrisbin/vim-mkdir.git
 [submodule "bundle/editorconfig-vim"]
-	path = bundle/editorconfig-vim
+	path = pack/plugins/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
 [submodule "bundle/vim-addon-local-vimrc"]
-	path = bundle/vim-addon-local-vimrc
+	path = pack/plugins/start/vim-addon-local-vimrc
 	url = https://github.com/MarcWeber/vim-addon-local-vimrc.git
 [submodule "bundle/vim-startify"]
 	path = bundle/vim-startify
 	url = https://github.com/mhinz/vim-startify.git
 [submodule "bundle/vim-abolish"]
-	path = bundle/vim-abolish
+	path = pack/plugins/start/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
 [submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+	path = pack/plugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/goyo.vim"]
-	path = bundle/goyo.vim
+	path = pack/plugins/start/goyo.vim
 	url = https://github.com/junegunn/goyo.vim.git
 [submodule "bundle/vim-pandoc-syntax"]
-	path = bundle/vim-pandoc-syntax
+	path = pack/plugins/start/vim-pandoc-syntax
 	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
 [submodule "bundle/vim-snippets-tlvince"]
-	path = bundle/vim-snippets-tlvince
+	path = pack/plugins/start/vim-snippets-tlvince
 	url = https://github.com/tlvince/vim-snippets-tlvince.git
 [submodule "bundle/vim-snippets"]
-	path = bundle/vim-snippets
+	path = pack/plugins/start/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
 [submodule "bundle/vim-auto-commit"]
-	path = bundle/vim-auto-commit
+	path = pack/plugins/start/vim-auto-commit
 	url = https://github.com/tlvince/vim-auto-commit.git
 [submodule "bundle/vim-sneak"]
-	path = bundle/vim-sneak
+	path = pack/plugins/start/vim-sneak
 	url = https://github.com/justinmk/vim-sneak.git
 [submodule "bundle/vim-pandoc"]
-	path = bundle/vim-pandoc
+	path = pack/plugins/start/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
 [submodule "bundle/fzf.vim"]
-	path = bundle/fzf.vim
+	path = pack/plugins/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
 [submodule "bundle/vim-rhubarb"]
-	path = bundle/vim-rhubarb
+	path = pack/plugins/start/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
 [submodule "bundle/vim-velocity"]
-	path = bundle/vim-velocity
+	path = pack/plugins/start/vim-velocity
 	url = git@github.com:lepture/vim-velocity.git
 [submodule "bundle/vim-markdown-toc"]
-	path = bundle/vim-markdown-toc
+	path = pack/plugins/start/vim-markdown-toc
 	url = https://github.com/mzlogin/vim-markdown-toc.git
 [submodule "bundle/suda.vim"]
-	path = bundle/suda.vim
+	path = pack/plugins/start/suda.vim
 	url = https://github.com/lambdalisue/suda.vim.git
 [submodule "bundle/vim-vinegar"]
-	path = bundle/vim-vinegar
+	path = pack/plugins/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
 [submodule "bundle/coc.nvim"]
-	path = bundle/coc.nvim
+	path = pack/plugins/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
 [submodule "bundle/ale"]
-	path = bundle/ale
+	path = pack/plugins/start/ale
 	url = https://github.com/dense-analysis/ale.git
 [submodule "bundle/vim-one"]
-	path = bundle/vim-one
+	path = pack/plugins/start/vim-one
 	url = https://github.com/rakr/vim-one.git
 [submodule "bundle/vim-polyglot"]
-	path = bundle/vim-polyglot
+	path = pack/plugins/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
 [submodule "bundle/vim-waikiki"]
-	path = bundle/vim-waikiki
+	path = pack/plugins/start/vim-waikiki
 	url = https://github.com/fcpg/vim-waikiki.git
 [submodule "bundle/zoomwintab.vim"]
-	path = bundle/zoomwintab.vim
+	path = pack/plugins/start/zoomwintab.vim
 	url = https://github.com/troydm/zoomwintab.vim
 [submodule "bundle/bullets.vim"]
-	path = bundle/bullets.vim
+	path = pack/plugins/start/bullets.vim
 	url = https://github.com/dkarter/bullets.vim.git
