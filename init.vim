@@ -59,7 +59,6 @@ set wildignore+=.git,.hg,.svn,DS_STORE,bower_components,node_modules
 
 " Visuals {{{1
 
-colorscheme one
 set termguicolors
 set background=dark
 let g:one_allow_italics = 1
@@ -78,6 +77,8 @@ augroup vim_one_customisations
     \ highlight DiffRemoved guibg=Normal |
     \ highlight! link Folded Normal
 augroup END
+
+colorscheme one
 
 " Mappings {{{1
 "
