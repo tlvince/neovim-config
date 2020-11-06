@@ -2,19 +2,19 @@ all: update
 
 update:
 	git submodule foreach git pull origin master
-	git commit --quiet --message "fix: updated bundles" bundle
-	cd bundle/coc.nvim && yarn && cd -
+	git commit --quiet --message "fix: updated plugins" pack/plugins
+	cd pack/plugins/start/coc.nvim && yarn && cd -
 
-bundle: _bundle
+plugin: _plugin
 
-_bundle:
+_plugin:
 	@basename="$(notdir $(basename $(url)))"; \
 	if test $$basename; then \
-		git submodule add $(url) bundle/$$basename; \
-		git commit bundle/$$basename .gitmodules --message \
+		git submodule add $(url) pack/plugins/start/$$basename; \
+		git commit pack/plugins/start/$$basename .gitmodules --message \
 			"feat: $$basename as a submodule"; \
 	else \
-		echo "usage: make bundle url=..."; \
+		echo "usage: make plugin url=..."; \
 	fi
 
-.PHONY: all update bundle
+.PHONY: all update plugin
