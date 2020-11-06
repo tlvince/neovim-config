@@ -132,7 +132,6 @@ map <leader>r :!./%:r<CR>
 
 " UTC date
 nmap <leader>t a<C-R>=strftime("%Y-%m-%d")<CR>
-imap <leader>t <C-R>=strftime("%Y-%m-%d")<CR>
 
 " pwgen
 nmap <leader>p :read !pwgen -sy1 32<CR>
