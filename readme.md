@@ -11,19 +11,14 @@ ln -s "$HOME/dotfiles/neovim-config/.nvim" "$XDG_CONFIG_HOME/nvim"
 
 ## Thanks
 
-* [Steve Losh][sl] for his setup guide
-* [Patrick Brisbin][pb] for his `.vimrc`
-* [Vim Casts][vc] for the `git submodule` idea for plugins
-* [Vim-Scripts][vs] for the convenient GitHub mirror
-
-  [sl]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/
-  [pb]: https://github.com/pbrisbin/dotfiles
-  [vc]: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
-  [vs]: http://vim-scripts.org/
+- [Steve Losh](http://stevelosh.com/blog/2010/09/coming-home-to-vim/) for his setup guide
+- [Patrick Brisbin](https://github.com/pbrisbin/dotfiles) for his `.vimrc`
+- [Vim Casts](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/) for the `git submodule` idea for plugins
+- [Vim-Scripts](http://vim-scripts.org/) for the convenient GitHub mirror
 
 ## Author
 
-© 2013-2019 Tom Vincent <http://tlvince.com/contact>
+© 2013-2020 Tom Vincent <http://tlvince.com/contact>
 
 ## License
 
