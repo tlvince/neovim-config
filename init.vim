@@ -44,7 +44,7 @@ set spelllang=en_gb     " Speak proper English
 set fillchars=""        " Remove characters in window split
 set encoding=utf-8      " Default encoding
 set noshowcmd
-set clipboard=unnamed
+set clipboard=unnamedplus
 set nomodeline
 set modelines=0
 set ttimeoutlen=0
