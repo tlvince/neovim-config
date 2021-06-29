@@ -38,8 +38,5 @@
     "typescript",
     "typescriptreact"
   ],
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "es5",
   "prettier.disableSuccessMessage": true
 }
