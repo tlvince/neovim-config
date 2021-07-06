@@ -103,3 +103,6 @@
 [submodule "pack/plugins/start/vim-vsnip"]
 	path = pack/plugins/start/vim-vsnip
 	url = https://github.com/hrsh7th/vim-vsnip.git
+[submodule "pack/plugins/start/lsp_signature.nvim"]
+	path = pack/plugins/start/lsp_signature.nvim
+	url = https://github.com/ray-x/lsp_signature.nvim.git
