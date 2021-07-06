@@ -3,7 +3,6 @@ all: update
 update:
 	git submodule foreach git pull origin master
 	git commit --quiet --message "fix: updated plugins" pack/plugins
-	cd pack/plugins/start/coc.nvim && yarn && cd -
 
 plugin: _plugin
 

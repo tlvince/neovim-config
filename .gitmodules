@@ -49,12 +49,6 @@
 [submodule "bundle/vim-pandoc-syntax"]
 	path = pack/plugins/start/vim-pandoc-syntax
 	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
-[submodule "bundle/vim-snippets-tlvince"]
-	path = pack/plugins/start/vim-snippets-tlvince
-	url = https://github.com/tlvince/vim-snippets-tlvince.git
-[submodule "bundle/vim-snippets"]
-	path = pack/plugins/start/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
 [submodule "bundle/vim-auto-commit"]
 	path = pack/plugins/start/vim-auto-commit
 	url = https://github.com/tlvince/vim-auto-commit.git
@@ -82,12 +76,6 @@
 [submodule "bundle/vim-vinegar"]
 	path = pack/plugins/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
-[submodule "bundle/coc.nvim"]
-	path = pack/plugins/start/coc.nvim
-	url = https://github.com/neoclide/coc.nvim.git
-[submodule "bundle/ale"]
-	path = pack/plugins/start/ale
-	url = https://github.com/dense-analysis/ale.git
 [submodule "bundle/vim-one"]
 	path = pack/plugins/start/vim-one
 	url = https://github.com/rakr/vim-one.git
@@ -103,3 +91,15 @@
 [submodule "bundle/bullets.vim"]
 	path = pack/plugins/start/bullets.vim
 	url = https://github.com/dkarter/bullets.vim.git
+[submodule "pack/plugins/start/nvim-compe"]
+	path = pack/plugins/start/nvim-compe
+	url = https://github.com/hrsh7th/nvim-compe.git
+[submodule "pack/plugins/start/friendly-snippets"]
+	path = pack/plugins/start/friendly-snippets
+	url = https://github.com/rafamadriz/friendly-snippets.git
+[submodule "pack/plugins/start/nvim-lspconfig"]
+	path = pack/plugins/start/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
+[submodule "pack/plugins/start/vim-vsnip"]
+	path = pack/plugins/start/vim-vsnip
+	url = https://github.com/hrsh7th/vim-vsnip.git
