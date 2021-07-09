@@ -73,7 +73,11 @@ augroup vim_one_customisations
     \ highlight DiffNewFile guibg=Normal |
     \ highlight DiffLine guibg=Normal |
     \ highlight DiffRemoved guibg=Normal |
-    \ highlight! link Folded Normal
+    \ highlight! link Folded Normal |
+    \ highlight link LspDiagnosticsSignError ALEErrorSign |
+    \ highlight link LspDiagnosticsSignWarning ALEWarningSign |
+    \ highlight link LspDiagnosticsSignInformation Question |
+    \ highlight link LspDiagnosticsSignHint gitcommitUntrackedFile
 augroup END
 
 colorscheme one
