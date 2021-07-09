@@ -31,3 +31,8 @@ lspconfig.efm.setup {
     languages = languages
   }
 }
+
+lspconfig.tflint.setup {
+  capabilities = capabilities,
+  on_attach = on_attach
+}
