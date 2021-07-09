@@ -1,7 +1,7 @@
 all: update
 
 update:
-	git submodule foreach git pull origin master
+	git submodule foreach git pull
 	git commit --quiet --message "fix: updated plugins" pack/plugins
 
 plugin: _plugin
