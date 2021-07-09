@@ -59,24 +59,10 @@ set wildignore+=.git,.hg,.svn,DS_STORE,bower_components,node_modules
 
 set termguicolors
 set background=dark
-let g:one_allow_italics = 1
-
-augroup vim_one_customisations
-  autocmd!
-  autocmd ColorScheme one
-    \ highlight DiffAdd guibg=Normal |
-    \ highlight DiffChange guibg=Normal |
-    \ highlight DiffDelete guibg=Normal |
-    \ highlight DiffText guibg=Normal |
-    \ highlight DiffAdded guibg=Normal |
-    \ highlight DiffFile guibg=Normal |
-    \ highlight DiffNewFile guibg=Normal |
-    \ highlight DiffLine guibg=Normal |
-    \ highlight DiffRemoved guibg=Normal |
-    \ highlight! link Folded Normal
-augroup END
-
-colorscheme one
+let g:onedark_hide_endofbuffer=1
+let g:onedark_termcolors=256
+let g:onedark_terminal_italics=1
+colorscheme onedark
 
 " Mappings {{{1
 "
@@ -223,4 +209,13 @@ require'compe'.setup {
 }
 
 require('gitsigns').setup()
+
+vim.fn.sign_define("LspDiagnosticsSignError",
+    {text = "✖", texthl = "LspDiagnosticsSignError"})
+vim.fn.sign_define("LspDiagnosticsSignWarning",
+    {text = "⚠", texthl = "LspDiagnosticsSignWarning"})
+vim.fn.sign_define("LspDiagnosticsSignInformation",
+    {text = "𝐢", texthl = "LspDiagnosticsSignInformation"})
+vim.fn.sign_define("LspDiagnosticsSignHint",
+    {text = "•", texthl = "LspDiagnosticsSignHint"})
 EOF

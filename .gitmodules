@@ -76,9 +76,6 @@
 [submodule "bundle/vim-vinegar"]
 	path = pack/plugins/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
-[submodule "bundle/vim-one"]
-	path = pack/plugins/start/vim-one
-	url = https://github.com/rakr/vim-one.git
 [submodule "bundle/vim-polyglot"]
 	path = pack/plugins/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
