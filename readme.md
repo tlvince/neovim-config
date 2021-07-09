@@ -2,6 +2,19 @@
 
 Optimised for NodeJS, serverless and React
 
+## Features
+
+- Language Server Protocol (go-to, auto completion, code actions, snippets)
+- Diagnostics (formatting, linting)
+- Auto completion
+- Git signs
+- Fuzzy finder
+- Wiki
+
+## Requirements
+
+- neovim >=0.5
+
 ## Usage
 
 ```bash
@@ -18,7 +31,7 @@ ln -s "$HOME/dotfiles/neovim-config/.nvim" "$XDG_CONFIG_HOME/nvim"
 
 ## Author
 
-© 2013-2020 Tom Vincent <http://tlvince.com/contact>
+© 2013-2021 Tom Vincent <http://tlvince.com/contact>
 
 ## License
 
