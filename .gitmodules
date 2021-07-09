@@ -112,3 +112,6 @@
 [submodule "pack/plugins/start/gitsigns.nvim"]
 	path = pack/plugins/start/gitsigns.nvim
 	url = https://github.com/lewis6991/gitsigns.nvim.git
+[submodule "pack/plugins/start/onedark.vim"]
+	path = pack/plugins/start/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
