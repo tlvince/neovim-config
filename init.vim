@@ -221,4 +221,6 @@ require'compe'.setup {
     vsnip = true;
   };
 }
+
+require('gitsigns').setup()
 EOF
