@@ -15,8 +15,11 @@ local jq = {
 }
 
 local prettier = {
-  formatCommand = "prettier --stdin-filepath ${INPUT}",
+  formatCommand = 'prettierd "${INPUT}"',
   formatStdin = true,
+  env = {
+    "CORE_D_DOTFILE=.prettierd"
+  }
 }
 
 local shellcheck = {
