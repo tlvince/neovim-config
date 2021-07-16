@@ -16,10 +16,7 @@ local jq = {
 
 local prettier = {
   formatCommand = 'prettierd "${INPUT}"',
-  formatStdin = true,
-  env = {
-    "CORE_D_DOTFILE=.prettierd"
-  }
+  formatStdin = true
 }
 
 local shellcheck = {
