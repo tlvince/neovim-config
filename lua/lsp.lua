@@ -19,7 +19,9 @@ lspconfig.tsserver.setup {
 
 lspconfig.efm.setup {
   capabilities = capabilities,
-  on_attach = on_attach,
+  on_attach = function(client)
+    vim.cmd [[autocmd! BufWritePre <buffer> lua vim.lsp.buf.formatting_sync(nil, 1000)]]
+  end,
   init_options = {
     documentFormatting = true
   },
