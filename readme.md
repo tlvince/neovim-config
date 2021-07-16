@@ -13,7 +13,14 @@ Optimised for NodeJS, serverless and React
 
 ## Requirements
 
+- bash-language-server
+- efm-langserver
+- eslint_d
+- jq
 - neovim >=0.5
+- prettierd
+- shellcheck
+- typescript-language-server
 
 ## Usage
 
