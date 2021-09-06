@@ -82,9 +82,6 @@
 [submodule "bundle/bullets.vim"]
 	path = pack/plugins/start/bullets.vim
 	url = https://github.com/dkarter/bullets.vim.git
-[submodule "pack/plugins/start/nvim-compe"]
-	path = pack/plugins/start/nvim-compe
-	url = https://github.com/hrsh7th/nvim-compe.git
 [submodule "pack/plugins/start/friendly-snippets"]
 	path = pack/plugins/start/friendly-snippets
 	url = https://github.com/rafamadriz/friendly-snippets.git
@@ -106,3 +103,18 @@
 [submodule "pack/plugins/start/vim-one"]
 	path = pack/plugins/start/vim-one
 	url = https://github.com/rakr/vim-one.git
+[submodule "pack/plugins/start/nvim-cmp"]
+	path = pack/plugins/start/nvim-cmp
+	url = https://github.com/hrsh7th/nvim-cmp.git
+[submodule "pack/plugins/start/cmp-nvim-lsp"]
+	path = pack/plugins/start/cmp-nvim-lsp
+	url = https://github.com/hrsh7th/cmp-nvim-lsp.git
+[submodule "pack/plugins/start/cmp-vsnip"]
+	path = pack/plugins/start/cmp-vsnip
+	url = https://github.com/hrsh7th/cmp-vsnip.git
+[submodule "pack/plugins/start/cmp-buffer"]
+	path = pack/plugins/start/cmp-buffer
+	url = https://github.com/hrsh7th/cmp-buffer.git
+[submodule "pack/plugins/start/cmp-path"]
+	path = pack/plugins/start/cmp-path
+	url = https://github.com/hrsh7th/cmp-path.git
