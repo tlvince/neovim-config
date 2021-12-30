@@ -1,0 +1,6 @@
+{
+  "sbash": {
+    "prefix": "sbash",
+    "body": ["#!/usr/bin/env bash", "set -euo pipefail", "\n"]
+  }
+}
