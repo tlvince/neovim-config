@@ -14,7 +14,8 @@ capabilities.textDocument.completion.completionItem.resolveSupport = {
 
 lspconfig.tsserver.setup {
   capabilities = capabilities,
-  on_attach = on_attach
+  on_attach = on_attach,
+  root_dir = lspconfig.util.root_pattern(".git")
 }
 
 lspconfig.efm.setup {
