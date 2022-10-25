@@ -29,6 +29,6 @@ return function(client, bufnr)
   vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
   vim.keymap.set('n', '<leader>f', vim.lsp.buf.formatting, bufopts)
 
-  client.resolved_capabilities.document_formatting = false
+  client.server_capabilities.document_formatting = false
   lsp_signature.on_attach(signature_config)
 end

@@ -24,10 +24,19 @@ lspconfig.tsserver.setup {
   root_dir = lspconfig.util.root_pattern(".git")
 }
 
+local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
+
 lspconfig.efm.setup {
   capabilities = capabilities,
-  on_attach = function(client)
-    vim.cmd [[autocmd! BufWritePre <buffer> lua vim.lsp.buf.formatting_sync(nil, 1000)]]
+  on_attach = function(client, bufnr)
+    vim.api.nvim_clear_autocmds({ group = augroup, buffer = bufnr })
+    vim.api.nvim_create_autocmd("BufWritePre", {
+      group = augroup,
+      buffer = bufnr,
+      callback = function()
+        vim.lsp.buf.format()
+      end,
+    })
   end,
   init_options = {
     documentFormatting = true
