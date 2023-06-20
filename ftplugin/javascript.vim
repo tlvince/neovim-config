@@ -1,1 +1,1 @@
-setlocal foldmethod=indent foldlevelstart=2
+setlocal foldlevelstart=1

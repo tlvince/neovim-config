@@ -43,9 +43,6 @@
 [submodule "bundle/goyo.vim"]
 	path = pack/plugins/start/goyo.vim
 	url = https://github.com/junegunn/goyo.vim.git
-[submodule "bundle/vim-pandoc-syntax"]
-	path = pack/plugins/start/vim-pandoc-syntax
-	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
 [submodule "bundle/vim-auto-commit"]
 	path = pack/plugins/start/vim-auto-commit
 	url = https://github.com/tlvince/vim-auto-commit.git
@@ -70,9 +67,6 @@
 [submodule "bundle/vim-vinegar"]
 	path = pack/plugins/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
-[submodule "bundle/vim-polyglot"]
-	path = pack/plugins/start/vim-polyglot
-	url = https://github.com/sheerun/vim-polyglot.git
 [submodule "bundle/vim-waikiki"]
 	path = pack/plugins/start/vim-waikiki
 	url = https://github.com/fcpg/vim-waikiki.git
@@ -100,9 +94,6 @@
 [submodule "pack/plugins/start/gitsigns.nvim"]
 	path = pack/plugins/start/gitsigns.nvim
 	url = https://github.com/lewis6991/gitsigns.nvim.git
-[submodule "pack/plugins/start/vim-one"]
-	path = pack/plugins/start/vim-one
-	url = https://github.com/rakr/vim-one.git
 [submodule "pack/plugins/start/nvim-cmp"]
 	path = pack/plugins/start/nvim-cmp
 	url = https://github.com/hrsh7th/nvim-cmp.git
@@ -118,3 +109,9 @@
 [submodule "pack/plugins/start/cmp-path"]
 	path = pack/plugins/start/cmp-path
 	url = https://github.com/hrsh7th/cmp-path.git
+[submodule "pack/plugins/start/onedark.nvim"]
+	path = pack/plugins/start/onedark.nvim
+	url = https://github.com/navarasu/onedark.nvim.git
+[submodule "pack/plugins/start/nvim-treesitter"]
+	path = pack/plugins/start/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git

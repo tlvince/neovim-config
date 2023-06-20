@@ -1,1 +1,1 @@
-setlocal foldlevel=1 foldmethod=expr
+setlocal foldlevel=1

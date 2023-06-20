@@ -50,7 +50,7 @@ lspconfig.efm.setup {
   }
 }
 
-lspconfig.emmet_ls.setup({
+lspconfig.emmet_ls.setup {
   capabilities = capabilities,
   filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less' },
   init_options = {
@@ -60,4 +60,18 @@ lspconfig.emmet_ls.setup({
       },
     },
   }
-})
+}
+
+lspconfig.terraformls.setup {
+  capabilities = capabilities,
+  on_attach = function(client, bufnr)
+    vim.api.nvim_clear_autocmds({ group = augroup, buffer = bufnr })
+    vim.api.nvim_create_autocmd("BufWritePre", {
+      group = augroup,
+      buffer = bufnr,
+      callback = function()
+        vim.lsp.buf.format()
+      end,
+    })
+  end,
+}

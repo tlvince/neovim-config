@@ -56,31 +56,9 @@ set wildignore+=*.o,*.obj,*.pyc,*.so,*.swp,*.zip,*.jpg,*.gif,*.png,*.pdf
 set wildignore+=.git,.hg,.svn,DS_STORE,bower_components,node_modules
 
 " Visuals {{{1
-
 set termguicolors
 set background=dark
-let g:one_allow_italics = 1
-
-augroup vim_one_customisations
-  autocmd!
-  autocmd ColorScheme one
-    \ highlight DiffAdd guibg=Normal |
-    \ highlight DiffChange guibg=Normal |
-    \ highlight DiffDelete guibg=Normal |
-    \ highlight DiffText guibg=Normal |
-    \ highlight DiffAdded guibg=Normal |
-    \ highlight DiffFile guibg=Normal |
-    \ highlight DiffNewFile guibg=Normal |
-    \ highlight DiffLine guibg=Normal |
-    \ highlight DiffRemoved guibg=Normal |
-    \ highlight! link Folded Normal |
-    \ highlight link LspDiagnosticsSignError ALEErrorSign |
-    \ highlight link LspDiagnosticsSignWarning ALEWarningSign |
-    \ highlight link LspDiagnosticsSignInformation Question |
-    \ highlight link LspDiagnosticsSignHint gitcommitUntrackedFile
-augroup END
-
-colorscheme one
+colorscheme onedark
 
 " Mappings {{{1
 "
@@ -231,4 +209,36 @@ vim.fn.sign_define("LspDiagnosticsSignInformation",
     {text = "𝐢", texthl = "LspDiagnosticsSignInformation"})
 vim.fn.sign_define("LspDiagnosticsSignHint",
     {text = "•", texthl = "LspDiagnosticsSignHint"})
+
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = {
+    "bash",
+    "css",
+    "dockerfile",
+    "graphql",
+    "html",
+    "ini",
+    "javascript",
+    "json",
+    "lua",
+    "markdown",
+    "markdown_inline",
+    "terraform",
+    "tsx",
+    "typescript",
+    "vim",
+    "yaml",
+  },
+  sync_install = false,
+  highlight = {
+    enable = true,
+    additional_vim_regex_highlighting = false,
+  },
+  indent = {
+    enable = true
+  }
+}
 EOF
+
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
