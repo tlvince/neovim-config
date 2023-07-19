@@ -3,7 +3,7 @@ function! s:goyo_before()
   setlocal noshowcmd
   setlocal nospell
   setlocal wrap
-  :call CocAction('runCommand', 'git.toggleGutters')
+  Gitsigns toggle_signs false
 endfunction
 
 function! s:goyo_after()
@@ -11,7 +11,7 @@ function! s:goyo_after()
   setlocal showcmd
   setlocal spell
   setlocal nowrap
-  :call CocAction('runCommand', 'git.toggleGutters')
+  Gitsigns toggle_signs true
 endfunction
 
 let g:goyo_callbacks = [function('s:goyo_before'), function('s:goyo_after')]
