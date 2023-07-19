@@ -29,6 +29,7 @@ local shellcheck = {
 }
 
 return {
+  astro = {prettier, eslint},
   css = {prettier},
   html = {prettier},
   javascript = {prettier, eslint},

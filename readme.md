@@ -13,6 +13,7 @@ Optimised for NodeJS, serverless and React
 
 ## Requirements
 
+- astrojs-language-server
 - bash-language-server
 - efm-langserver
 - eslint_d
@@ -20,6 +21,7 @@ Optimised for NodeJS, serverless and React
 - neovim >=0.5
 - prettierd
 - shellcheck
+- terraformls
 - typescript-language-server
 
 ## Usage

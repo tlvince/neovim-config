@@ -75,3 +75,9 @@ lspconfig.terraformls.setup {
     })
   end,
 }
+
+lspconfig.astro.setup {
+  capabilities = capabilities,
+  on_attach = on_attach,
+  root_dir = lspconfig.util.root_pattern(".git")
+}

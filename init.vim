@@ -212,6 +212,7 @@ vim.fn.sign_define("LspDiagnosticsSignHint",
 
 require'nvim-treesitter.configs'.setup {
   ensure_installed = {
+    "astro",
     "bash",
     "css",
     "dockerfile",
