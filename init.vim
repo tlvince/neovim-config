@@ -239,6 +239,8 @@ require'nvim-treesitter.configs'.setup {
     enable = true
   }
 }
+
+require("lsp_signature").setup()
 EOF
 
 set foldmethod=expr
