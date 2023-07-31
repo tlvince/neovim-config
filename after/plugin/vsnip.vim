@@ -7,4 +7,5 @@ smap <expr> <Tab>   '<Plug>(vsnip-jump-next)'
 imap <expr> <S-Tab> '<Plug>(vsnip-jump-prev)'
 smap <expr> <S-Tab> '<Plug>(vsnip-jump-prev)'
 
+let g:vsnip_filetypes.astro = ['javascript', 'typescript']
 let g:vsnip_snippet_dir = fnamemodify($MYVIMRC, ':h') . '/vsnip-snippets'
