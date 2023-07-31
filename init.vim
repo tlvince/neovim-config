@@ -15,8 +15,6 @@ set directory=$XDG_CONFIG_HOME/nvim/tmp,.
 
 " Load plugins
 packloadall
-set rtp+=/usr/share/vim/vimfiles
-set rtp+=/usr/local/opt/fzf
 
 " General preferences {{{1
 "
