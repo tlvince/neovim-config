@@ -201,14 +201,14 @@ cmp.setup {
 
 require('gitsigns').setup()
 
-vim.fn.sign_define("LspDiagnosticsSignError",
-    {text = "✖", texthl = "LspDiagnosticsSignError"})
-vim.fn.sign_define("LspDiagnosticsSignWarning",
-    {text = "⚠", texthl = "LspDiagnosticsSignWarning"})
-vim.fn.sign_define("LspDiagnosticsSignInformation",
-    {text = "𝐢", texthl = "LspDiagnosticsSignInformation"})
-vim.fn.sign_define("LspDiagnosticsSignHint",
-    {text = "•", texthl = "LspDiagnosticsSignHint"})
+vim.fn.sign_define("DiagnosticSignError",
+    {text = "✖", texthl = "DiganosticSignError"})
+vim.fn.sign_define("DiganosticSignWarning",
+    {text = "⚠", texthl = "DiganosticSignWarning"})
+vim.fn.sign_define("DiganosticSignInformation",
+    {text = "𝐢", texthl = "DiganosticSignInformation"})
+vim.fn.sign_define("DiganosticSignHint",
+    {text = "•", texthl = "DiganosticSignHint"})
 
 require'nvim-treesitter.configs'.setup {
   ensure_installed = {
