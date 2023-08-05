@@ -36,7 +36,6 @@ return {
   javascriptreact = {prettier, eslint},
   json = {prettier, jq},
   markdown = {prettier},
-  pandoc = {prettier},
   sh = {shellcheck},
   typescript = {prettier, eslint},
   typescriptreact = {prettier, eslint},

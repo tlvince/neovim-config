@@ -46,9 +46,6 @@
 [submodule "bundle/vim-auto-commit"]
 	path = pack/plugins/start/vim-auto-commit
 	url = https://github.com/tlvince/vim-auto-commit.git
-[submodule "bundle/vim-pandoc"]
-	path = pack/plugins/start/vim-pandoc
-	url = https://github.com/vim-pandoc/vim-pandoc.git
 [submodule "bundle/fzf.vim"]
 	path = pack/plugins/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
