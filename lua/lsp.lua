@@ -33,7 +33,6 @@ vim.api.nvim_create_autocmd('LspAttach', {
   end,
 })
 
-
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 capabilities.textDocument.completion.completionItem.resolveSupport = {
@@ -44,8 +43,14 @@ capabilities.textDocument.completion.completionItem.resolveSupport = {
   }
 }
 
+local function disable_formatter(client)
+  client.server_capabilities.documentFormattingProvider = false;
+  client.server_capabilities.documentRangeFormattingProvider = false;
+end
+
 lspconfig.tsserver.setup {
   capabilities = capabilities,
+  on_attach = disable_formatter,
   root_dir = lspconfig.util.root_pattern(".git")
 }
 
@@ -91,5 +96,6 @@ lspconfig.terraformls.setup {
 
 lspconfig.astro.setup {
   capabilities = capabilities,
-  root_dir = lspconfig.util.root_pattern(".git")
+  on_attach = disable_formatter,
+  root_dir = lspconfig.util.root_pattern("astro.config.*"),
 }
