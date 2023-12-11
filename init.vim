@@ -163,7 +163,7 @@ if has('autocmd')
   autocmd BufReadPost * :DetectIndent
 endif
 
-autocmd BufWritePost ~/docs/wiki/* call AutoCommit()
+autocmd BufWritePost ~/documents/wiki/* call AutoCommit()
 autocmd BufRead,BufEnter *.js setlocal matchpairs={:},[:]
 
 lua << EOF
@@ -222,6 +222,7 @@ require'nvim-treesitter.configs'.setup {
     "lua",
     "markdown",
     "markdown_inline",
+    "nix",
     "terraform",
     "tsx",
     "typescript",
