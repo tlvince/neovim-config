@@ -98,4 +98,9 @@ lspconfig.astro.setup {
   capabilities = capabilities,
   on_attach = disable_formatter,
   root_dir = lspconfig.util.root_pattern("astro.config.*"),
+  init_options = {
+    typescript = {
+      tsdk = "../../node_modules/typescript/lib"
+    }
+  }
 }
