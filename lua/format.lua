@@ -14,6 +14,11 @@ local jq = {
   lintSource = "jq"
 }
 
+local nix = {
+  formatCommand = "alejandra -qq",
+  formatStdin = true
+}
+
 local prettier = {
   formatCommand = 'prettierd "${INPUT}"',
   formatStdin = true
@@ -36,6 +41,7 @@ return {
   javascriptreact = {prettier, eslint},
   json = {prettier, jq},
   markdown = {prettier},
+  nix = {nix},
   sh = {shellcheck},
   typescript = {prettier, eslint},
   typescriptreact = {prettier, eslint},
