@@ -25,9 +25,6 @@
 [submodule "bundle/vim-mkdir"]
 	path = pack/plugins/start/vim-mkdir
 	url = https://github.com/pbrisbin/vim-mkdir.git
-[submodule "bundle/editorconfig-vim"]
-	path = pack/plugins/start/editorconfig-vim
-	url = https://github.com/editorconfig/editorconfig-vim.git
 [submodule "bundle/vim-addon-local-vimrc"]
 	path = pack/plugins/start/vim-addon-local-vimrc
 	url = https://github.com/MarcWeber/vim-addon-local-vimrc.git
