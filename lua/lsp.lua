@@ -48,7 +48,7 @@ local function disable_formatter(client)
   client.server_capabilities.documentRangeFormattingProvider = false;
 end
 
-lspconfig.tsserver.setup {
+lspconfig.ts_ls.setup {
   capabilities = capabilities,
   on_attach = disable_formatter,
   root_dir = lspconfig.util.root_pattern(".git")
