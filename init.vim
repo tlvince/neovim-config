@@ -124,11 +124,6 @@ nmap <silent><leader>s :setlocal spell! spell?<CR>
 
 nmap <leader>q gqip
 
-" Function keys {{{2
-
-" Toggle paste mode (particularly useful to temporarily disable autoindent)
-set pastetoggle=<F3>
-
 " Disabled keys {{{2
 
 " Disable arrow keys (force good habits)
